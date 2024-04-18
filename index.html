@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox-master/dist/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="libs/animate/animate.min.css" />
+	<link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.1" />
+	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<header class="header default">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-4">
+						<ul class="menu">
+							<li><a href="#">Каталог</a></li>
+							<li><a href="#">Образы</a></li>
+							<li><a href="#">Новинки</a></li>
+							<li class="menu__sale"><a href="#">Sale</a></li>
+							<li><a href="#">Войти</a></li>
+						</ul>
+						<div class="sandwich"></div>
+					</div>
+					<div class="col-lg-2 col-4">
+						<div class="logo-wrap">
+							<a href="#" class="logo">
+								<img src="img/logo.svg" alt="alt">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-5 col-4">
+						<div class="header__buttons">
+							<a href="#" class="btn-header">
+								<img src="img/basket.svg" alt="alt">
+								<div class="btn-header__value">0</div>
+							</a>
+							<a href="#" class="btn-header">
+								<img src="img/heart.svg" alt="alt">
+							</a>
+							<div class="btn-header btn-header_search hidden-mob">
+								<img src="img/search.svg" alt="alt">
+								<div class="form-search">
+									<form>
+										<button class="btn-search">
+											<img src="img/search.svg" alt="alt">
+										</button>
+										<input type="text" placeholder="Поиск..." required="required">
+									</form>
+								</div>
+								<div class="content-search">
+									<div class="content-search__title">5 результатов по запросу: платье</div>
+									<div class="list-search">
+										<a href="#" class="item-search">
+											<span class="item-search__image">
+												<img src="img/item_search1.jpg" alt="alt">
+											</span>
+											<span class="item-search__content">
+												<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+												<span class="item-search__prices">
+													<span class="price-main">59.99 RUB</span>
+													<span class="price-old">80.00 RUB</span>
+												</span>
+											</span>
+										</a>
+										<a href="#" class="item-search">
+											<span class="item-search__image">
+												<img src="img/item_search1.jpg" alt="alt">
+											</span>
+											<span class="item-search__content">
+												<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+												<span class="item-search__prices">
+													<span class="price-main">59.99 RUB</span>
+													<span class="price-old">80.00 RUB</span>
+												</span>
+											</span>
+										</a>
+										<a href="#" class="item-search">
+											<span class="item-search__image">
+												<img src="img/item_search1.jpg" alt="alt">
+											</span>
+											<span class="item-search__content">
+												<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+												<span class="item-search__prices">
+													<span class="price-main">59.99 RUB</span>
+													<span class="price-old">80.00 RUB</span>
+												</span>
+											</span>
+										</a>
+										<a href="#" class="item-search">
+											<span class="item-search__image">
+												<img src="img/item_search1.jpg" alt="alt">
+											</span>
+											<span class="item-search__content">
+												<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+												<span class="item-search__prices">
+													<span class="price-main">59.99 RUB</span>
+													<span class="price-old">80.00 RUB</span>
+												</span>
+											</span>
+										</a>
+										<a href="#" class="item-search">
+											<span class="item-search__image">
+												<img src="img/item_search1.jpg" alt="alt">
+											</span>
+											<span class="item-search__content">
+												<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+												<span class="item-search__prices">
+													<span class="price-main">59.99 RUB</span>
+													<span class="price-old">80.00 RUB</span>
+												</span>
+											</span>
+										</a>
+									</div>
+									<div class="content-search__bottom">
+										<a href="#" class="btn-main">Все результаты</a>
+									</div>
+								</div>
+							</div>
+							<a href="#" class="btn-header hidden-mob">
+								<img src="img/user.svg" alt="alt">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<div class="menu-mobile__close"></div>
+				<div class="form-search-wrap">
+					<div class="form-search">
+						<form>
+							<button class="btn-search">
+								<img src="img/search.svg" alt="alt">
+							</button>
+							<input type="text" placeholder="Поиск..." required="required">
+						</form>
+					</div>
+					<div class="content-search">
+						<div class="content-search__title">5 результатов по запросу: платье</div>
+						<div class="list-search">
+							<a href="#" class="item-search">
+								<span class="item-search__image">
+									<img src="img/item_search1.jpg" alt="alt">
+								</span>
+								<span class="item-search__content">
+									<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+									<span class="item-search__prices">
+										<span class="price-main">59.99 RUB</span>
+										<span class="price-old">80.00 RUB</span>
+									</span>
+								</span>
+							</a>
+							<a href="#" class="item-search">
+								<span class="item-search__image">
+									<img src="img/item_search1.jpg" alt="alt">
+								</span>
+								<span class="item-search__content">
+									<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+									<span class="item-search__prices">
+										<span class="price-main">59.99 RUB</span>
+										<span class="price-old">80.00 RUB</span>
+									</span>
+								</span>
+							</a>
+							<a href="#" class="item-search">
+								<span class="item-search__image">
+									<img src="img/item_search1.jpg" alt="alt">
+								</span>
+								<span class="item-search__content">
+									<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+									<span class="item-search__prices">
+										<span class="price-main">59.99 RUB</span>
+										<span class="price-old">80.00 RUB</span>
+									</span>
+								</span>
+							</a>
+							<a href="#" class="item-search">
+								<span class="item-search__image">
+									<img src="img/item_search1.jpg" alt="alt">
+								</span>
+								<span class="item-search__content">
+									<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+									<span class="item-search__prices">
+										<span class="price-main">59.99 RUB</span>
+										<span class="price-old">80.00 RUB</span>
+									</span>
+								</span>
+							</a>
+							<a href="#" class="item-search">
+								<span class="item-search__image">
+									<img src="img/item_search1.jpg" alt="alt">
+								</span>
+								<span class="item-search__content">
+									<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+									<span class="item-search__prices">
+										<span class="price-main">59.99 RUB</span>
+										<span class="price-old">80.00 RUB</span>
+									</span>
+								</span>
+							</a>
+						</div>
+						<div class="content-search__bottom">
+							<a href="#" class="btn-main">Все результаты</a>
+						</div>
+					</div>
+				</div>
+				<ul class="menu">
+					<li class="menu__haschild">
+						<a href="#">Каталог</a>
+						<ul>
+							<li><a href="#">Подпункт</a></li>
+							<li><a href="#">Подпункт</a></li>
+							<li><a href="#">Подпункт</a></li>
+							<li><a href="#">Подпункт</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Образы</a></li>
+					<li><a href="#">Новинки</a></li>
+					<li class="menu__sale"><a href="#">Sale</a></li>
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Оплата и доставка</a></li>
+					<li><a href="#">Возврат и обмен</a></li>
+					<li><a href="#">Блог</a></li>
+				</ul>
+				<div class="buttons-user">
+					<a href="#" class="btn-user">
+						<span class="btn-user__icon">
+							<img src="img/user2.svg" alt="alt">
+						</span>
+						<span>Войти</span>
+					</a>
+					<a href="#" class="btn-user">
+						<span class="btn-user__icon">
+							<div class="btn-user__value">0</div>
+							<img src="img/basket2.svg" alt="alt">
+						</span>
+						<span>Корзина</span>
+					</a>
+					<a href="#" class="btn-user">
+						<span class="btn-user__icon">
+							<img src="img/heart2.svg" alt="alt">
+						</span>
+						<span>Избранное</span>
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<section class="billbord">
+			<div class="container">
+				<h1 class="title-big fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.3s">Second skin</h1>
+				<div class="subtitle-page fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.7s">это одежда для женщин, которые ценят комфорт, стиль, качество <br>и уникальность</div>
+				<a href="#" class="btn-main fadeInUp wow" data-wow-iteration="1" data-wow-delay="1s">Каталог</a>
+			</div>
+		</section>
+
+		<div class="lines">
+			<div class="lines__item"></div>
+			<div class="lines__item"></div>
+			<div class="lines__item"></div>
+			<div class="lines__item"></div>
+		</div>
+
+		<section class="collections">
+			<div class="container">
+				<div class="head-section">
+					<div class="head-section__content">
+						<div class="title-middle fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.7s">collections</div>
+						<h2 class="title-section fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.3s">коллекции</h2>
+					</div>
+					<div class="head-section__descr fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.3s">Для тех, кто желает чувствовать себя уместно всегда и всюду</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<a href="#" class="item-collection fadeIn wow" data-wow-iteration="1" data-wow-delay="0.3s">
+							<span class="item-collection__image">
+								<img src="img/collection1.jpg" alt="alt">
+							</span>
+						</a>
+						<div class="links-wrap">
+							<a href="#" class="link-page flipInX wow" data-wow-iteration="1" data-wow-delay="0.3s"><span>Новинки</span> <img src="img/arrow.svg" alt="alt"></a>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<a href="#" class="item-collection fadeIn wow" data-wow-iteration="1" data-wow-delay="0.7s">
+							<span class="item-collection__image">
+								<img src="img/collection2.jpg" alt="alt">
+							</span>
+						</a>
+						<div class="links-wrap">
+							<a href="#" class="link-page flipInX wow" data-wow-iteration="1" data-wow-delay="0.7s"><img src="img/arrow.svg" alt="alt"><span>БЕСТСЕЛЛЕРЫ</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="popular">
+			<div class="container">
+				<div class="head-section">
+					<div class="head-section__content">
+						<div class="title-middle fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.7s">popular</div>
+						<h2 class="title-section fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.3s">Популярное</h2>
+					</div>
+				</div>
+				<div class="swiper swiper-catalog">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="#" class="item-catalog">
+								<span class="tags-wrap">
+									<span class="item-tag item-tag_hit">HIT</span>
+									<span class="item-tag">New</span>
+								</span>
+								<span class="btn-like"></span>
+								<span class="item-catalog__image">
+									<img src="img/catalog1.jpg" alt="alt">
+								</span>
+								<span class="item-catalog__content">
+									<span class="item-catalog__title">Футболка белого цвета</span>
+									<span class="item-catalog__prices">
+										<span class="price-main">59.99 RUB</span>
+									</span>
+								</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="item-catalog">
+								<span class="tags-wrap">
+									<span class="item-tag item-tag_hit">HIT</span>
+									<span class="item-tag">New</span>
+								</span>
+								<span class="btn-like"></span>
+								<span class="item-catalog__image">
+									<img src="img/catalog2.jpg" alt="alt">
+								</span>
+								<span class="item-catalog__content">
+									<span class="item-catalog__title">Футболка белого цвета</span>
+									<span class="item-catalog__prices">
+										<span class="price-main">59.99 RUB</span>
+									</span>
+								</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="item-catalog">
+								<span class="tags-wrap">
+									<span class="item-tag item-tag_hit">HIT</span>
+									<span class="item-tag">New</span>
+								</span>
+								<span class="btn-like"></span>
+								<span class="item-catalog__image">
+									<img src="img/catalog3.jpg" alt="alt">
+								</span>
+								<span class="item-catalog__content">
+									<span class="item-catalog__title">Костюм спорт-шик <br>из костюмной тканика </span>
+									<span class="item-catalog__prices">
+										<span class="price-new">59.99 RUB</span>
+										<span class="price-old">80.00 RUB</span>
+									</span>
+								</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="item-catalog">
+								<span class="tags-wrap">
+									<span class="item-tag item-tag_hit">HIT</span>
+									<span class="item-tag">New</span>
+								</span>
+								<span class="btn-like"></span>
+								<span class="item-catalog__image">
+									<img src="img/catalog4.png" alt="alt">
+								</span>
+								<span class="item-catalog__content">
+									<span class="item-catalog__title">Костюм спорт-шик <br>из костюмной тканика </span>
+									<span class="item-catalog__prices">
+										<span class="price-main">59.99 RUB</span>
+									</span>
+								</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="item-catalog">
+								<span class="tags-wrap">
+									<span class="item-tag item-tag_hit">HIT</span>
+									<span class="item-tag">New</span>
+								</span>
+								<span class="btn-like"></span>
+								<span class="item-catalog__image">
+									<img src="img/catalog1.jpg" alt="alt">
+								</span>
+								<span class="item-catalog__content">
+									<span class="item-catalog__title">Футболка белого цвета</span>
+									<span class="item-catalog__prices">
+										<span class="price-main">59.99 RUB</span>
+									</span>
+								</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="item-catalog">
+								<span class="tags-wrap">
+									<span class="item-tag item-tag_hit">HIT</span>
+									<span class="item-tag">New</span>
+								</span>
+								<span class="btn-like"></span>
+								<span class="item-catalog__image">
+									<img src="img/catalog2.jpg" alt="alt">
+								</span>
+								<span class="item-catalog__content">
+									<span class="item-catalog__title">Футболка белого цвета</span>
+									<span class="item-catalog__prices">
+										<span class="price-main">59.99 RUB</span>
+									</span>
+								</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="item-catalog">
+								<span class="tags-wrap">
+									<span class="item-tag item-tag_hit">HIT</span>
+									<span class="item-tag">New</span>
+								</span>
+								<span class="btn-like"></span>
+								<span class="item-catalog__image">
+									<img src="img/catalog3.jpg" alt="alt">
+								</span>
+								<span class="item-catalog__content">
+									<span class="item-catalog__title">Костюм спорт-шик <br>из костюмной тканика </span>
+									<span class="item-catalog__prices">
+										<span class="price-new">59.99 RUB</span>
+										<span class="price-old">80.00 RUB</span>
+									</span>
+								</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="item-catalog">
+								<span class="tags-wrap">
+									<span class="item-tag item-tag_hit">HIT</span>
+									<span class="item-tag">New</span>
+								</span>
+								<span class="btn-like"></span>
+								<span class="item-catalog__image">
+									<img src="img/catalog4.png" alt="alt">
+								</span>
+								<span class="item-catalog__content">
+									<span class="item-catalog__title">Костюм спорт-шик <br>из костюмной тканика </span>
+									<span class="item-catalog__prices">
+										<span class="price-main">59.99 RUB</span>
+									</span>
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="swiper-scrollbar"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="choise">
+			<div class="container">
+				<div class="head-section">
+					<div class="head-section__content">
+						<div class="title-middle fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.7s">your choice</div>
+						<h2 class="title-section fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.3s">Твой выбор</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-6">
+						<a href="#" class="item-choise">
+							<span class="item-choise__image fadeIn wow" data-wow-iteration="1" data-wow-delay="0.3s">
+								<img src="img/choise1.jpg" alt="alt">
+							</span>
+							<span class="item-choise__content">
+								<span class="link-page flipInX wow" data-wow-iteration="1" data-wow-delay="0.6s"><span>КЛАССИКА</span> <img src="img/arrow.svg" alt="alt"></span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-6">
+						<a href="#" class="item-choise">
+							<span class="item-choise__image fadeIn wow" data-wow-iteration="1" data-wow-delay="0.6s">
+								<img src="img/choise2.jpg" alt="alt">
+							</span>
+							<span class="item-choise__content">
+								<span class="link-page flipInX wow" data-wow-iteration="1" data-wow-delay="0.6s"><span>ГОРОДСКОй СПОРТ</span> <img src="img/arrow.svg" alt="alt"></span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-6">
+						<a href="#" class="item-choise">
+							<span class="item-choise__image fadeIn wow" data-wow-iteration="1" data-wow-delay="0.9s">
+								<img src="img/choise3.jpg" alt="alt">
+							</span>
+							<span class="item-choise__content">
+								<span class="link-page flipInX wow" data-wow-iteration="1" data-wow-delay="0.6s"><span>ВЕСНА-ЛЕТО</span> <img src="img/arrow.svg" alt="alt"></span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-6">
+						<a href="#" class="item-choise">
+							<span class="item-choise__image fadeIn wow" data-wow-iteration="1" data-wow-delay="1.2s">
+								<img src="img/choise4.jpg" alt="alt">
+							</span>
+							<span class="item-choise__content">
+								<span class="link-page flipInX wow" data-wow-iteration="1" data-wow-delay="0.6s"><span>ДЕНИМ</span> <img src="img/arrow.svg" alt="alt"></span>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="looks">
+			<div class="container">
+				<div class="head-section">
+					<div class="head-section__content">
+						<div class="title-middle fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.7s">Ideal fashion looks</div>
+						<h2 class="title-section fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.3s">Идеальные образы</h2>
+					</div>
+					<div class="head-section__descr fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.3s">Больше не нужно думать, что надеть и с чем сочетать, вся одежда Second Skin легко комбинируется между собой</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<a href="#" class="item-look fadeIn wow" data-wow-iteration="1" data-wow-delay="0.3s">
+							<span class="item-look__image">
+								<img src="img/look1.jpg" alt="alt">
+							</span>
+							<span class="item-look__content">
+								<span class="title-block">Образы</span>
+								<span class="descr-block">Смотреть все образы</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-6">
+						<a href="#" class="item-look fadeIn wow" data-wow-iteration="1" data-wow-delay="0.7s">
+							<span class="item-look__image">
+								<img src="img/look2.jpg" alt="alt">
+							</span>
+							<span class="item-look__content">
+								<span class="title-block">Образы</span>
+								<span class="descr-block">Смотреть все образы</span>
+							</span>
+						</a>
+					</div>
+				</div>
+				<div class="links-wrap links-wrap_single">
+					<a href="#" class="link-page flipInX wow" data-wow-iteration="1" data-wow-delay="0.6s"><span>Смотреть все</span> <img src="img/arrow.svg" alt="alt"></a>
+				</div>
+			</div>
+		</section>
+
+		<section class="catalog">
+			<div class="container">
+				<div class="head-section">
+					<div class="head-section__content">
+						<div class="title-middle fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.7s">catalog</div>
+						<h2 class="title-section fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.3s">Каталог</h2>
+					</div>
+				</div>
+				<div class="row row_main">
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-catalog">
+							<span class="tags-wrap">
+								<span class="item-tag item-tag_hit">HIT</span>
+								<span class="item-tag">New</span>
+							</span>
+							<span class="btn-like"></span>
+							<span class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</span>
+							<span class="item-catalog__content">
+								<span class="item-catalog__title">Футболка белого цвета</span>
+								<span class="item-catalog__prices">
+									<span class="price-main">59.99 RUB</span>
+								</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-catalog">
+							<span class="tags-wrap">
+								<span class="item-tag item-tag_hit">HIT</span>
+								<span class="item-tag">New</span>
+							</span>
+							<span class="btn-like"></span>
+							<span class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</span>
+							<span class="item-catalog__content">
+								<span class="item-catalog__title">Футболка белого цвета</span>
+								<span class="item-catalog__prices">
+									<span class="price-main">59.99 RUB</span>
+								</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-catalog">
+							<span class="tags-wrap">
+								<span class="item-tag item-tag_hit">HIT</span>
+								<span class="item-tag">New</span>
+							</span>
+							<span class="btn-like"></span>
+							<span class="item-catalog__image">
+								<img src="img/catalog3.jpg" alt="alt">
+							</span>
+							<span class="item-catalog__content">
+								<span class="item-catalog__title">Костюм спорт-шик <br>из костюмной тканика </span>
+								<span class="item-catalog__prices">
+									<span class="price-new">59.99 RUB</span>
+									<span class="price-old">80.00 RUB</span>
+								</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-catalog">
+							<span class="tags-wrap">
+								<span class="item-tag item-tag_hit">HIT</span>
+								<span class="item-tag">New</span>
+							</span>
+							<span class="btn-like"></span>
+							<span class="item-catalog__image">
+								<img src="img/catalog4.png" alt="alt">
+							</span>
+							<span class="item-catalog__content">
+								<span class="item-catalog__title">Костюм спорт-шик <br>из костюмной тканика </span>
+								<span class="item-catalog__prices">
+									<span class="price-main">59.99 RUB</span>
+								</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-catalog">
+							<span class="tags-wrap">
+								<span class="item-tag item-tag_hit">HIT</span>
+								<span class="item-tag">New</span>
+							</span>
+							<span class="btn-like"></span>
+							<span class="item-catalog__image">
+								<img src="img/catalog4.png" alt="alt">
+							</span>
+							<span class="item-catalog__content">
+								<span class="item-catalog__title">Костюм спорт-шик <br>из костюмной тканика </span>
+								<span class="item-catalog__prices">
+									<span class="price-main">59.99 RUB</span>
+								</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-catalog">
+							<span class="tags-wrap">
+								<span class="item-tag item-tag_hit">HIT</span>
+								<span class="item-tag">New</span>
+							</span>
+							<span class="btn-like"></span>
+							<span class="item-catalog__image">
+								<img src="img/catalog5.png" alt="alt">
+							</span>
+							<span class="item-catalog__content">
+								<span class="item-catalog__title">Футболка белого цвета</span>
+								<span class="item-catalog__prices">
+									<span class="price-main">59.99 RUB</span>
+								</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-catalog">
+							<span class="tags-wrap">
+								<span class="item-tag item-tag_hit">HIT</span>
+								<span class="item-tag">New</span>
+							</span>
+							<span class="btn-like"></span>
+							<span class="item-catalog__image">
+								<img src="img/catalog3.jpg" alt="alt">
+							</span>
+							<span class="item-catalog__content">
+								<span class="item-catalog__title">Костюм спорт-шик <br>из костюмной тканика </span>
+								<span class="item-catalog__prices">
+									<span class="price-new">59.99 RUB</span>
+									<span class="price-old">80.00 RUB</span>
+								</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-catalog">
+							<span class="tags-wrap">
+								<span class="item-tag item-tag_hit">HIT</span>
+								<span class="item-tag">New</span>
+							</span>
+							<span class="btn-like"></span>
+							<span class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</span>
+							<span class="item-catalog__content">
+								<span class="item-catalog__title">Футболка белого цвета</span>
+								<span class="item-catalog__prices">
+									<span class="price-main">59.99 RUB</span>
+								</span>
+							</span>
+						</a>
+					</div>
+				</div>
+				<div class="links-wrap links-wrap_single">
+					<a href="#" class="link-page flipInX wow" data-wow-iteration="1" data-wow-delay="0.6s"><span>Смотреть все</span> <img src="img/arrow.svg" alt="alt"></a>
+				</div>
+			</div>
+		</section>
+
+		<section class="billbord-about">
+			<div class="container">
+				<div class="row align-items-end">
+					<div class="col-lg-8">
+						<h2 class="title-billbord fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.3s">Одежда <br>Second Skin, <br>как вторая кожа</h2>
+						<a href="#" class="link-page flipInX wow" data-wow-iteration="1" data-wow-delay="0.6s"><span>О бренде</span> <img src="img/arrow2.svg" alt="alt"></a>
+					</div>
+					<div class="col-lg-4">
+						<div class="subtitle-page fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.7s">Она не ощущается, в ней комфортно и она уместна везде: дома, на детской площадке или деловой встрече.</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="news">
+			<div class="container">
+				<div class="head-section">
+					<div class="head-section__content">
+						<div class="title-middle fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.7s">Blog</div>
+						<h2 class="title-section fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.3s">Блог</h2>
+					</div>
+					<div class="head-section__descr fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.3s">Советы имидж-консультанта и основателя бренда, которые помогут быть стильной не изменяя себе</div>
+				</div>
+				<div class="swiper swiper-catalog swiper-catalog_news">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="#" class="item-news">
+								<span class="item-news__image">
+									<img src="img/news1.jpg" alt="alt">
+								</span>
+								<span class="item-news__content">
+									<span class="item-news__title">Как носить худи и выглядеть стильно: <br>6 свежих фэшн-идей</span>
+									<span class="item-news__date">15/03/24</span>
+								</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="item-news">
+								<span class="item-news__image">
+									<img src="img/news2.jpg" alt="alt">
+								</span>
+								<span class="item-news__content">
+									<span class="item-news__title">Как носить худи и выглядеть стильно: <br>6 свежих фэшн-идей</span>
+									<span class="item-news__date">15/03/24</span>
+								</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="item-news">
+								<span class="item-news__image">
+									<img src="img/news3.jpg" alt="alt">
+								</span>
+								<span class="item-news__content">
+									<span class="item-news__title">Как носить худи и выглядеть стильно: <br>6 свежих фэшн-идей</span>
+									<span class="item-news__date">15/03/24</span>
+								</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="item-news">
+								<span class="item-news__image">
+									<img src="img/news1.jpg" alt="alt">
+								</span>
+								<span class="item-news__content">
+									<span class="item-news__title">Как носить худи и выглядеть стильно: <br>6 свежих фэшн-идей</span>
+									<span class="item-news__date">15/03/24</span>
+								</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="item-news">
+								<span class="item-news__image">
+									<img src="img/news2.jpg" alt="alt">
+								</span>
+								<span class="item-news__content">
+									<span class="item-news__title">Как носить худи и выглядеть стильно: <br>6 свежих фэшн-идей</span>
+									<span class="item-news__date">15/03/24</span>
+								</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="item-news">
+								<span class="item-news__image">
+									<img src="img/news3.jpg" alt="alt">
+								</span>
+								<span class="item-news__content">
+									<span class="item-news__title">Как носить худи и выглядеть стильно: <br>6 свежих фэшн-идей</span>
+									<span class="item-news__date">15/03/24</span>
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="swiper-scrollbar"></div>
+				</div>
+				<div class="links-wrap links-wrap_single">
+					<a href="#" class="link-page flipInX wow" data-wow-iteration="1" data-wow-delay="0.6s"><span>Смотреть все</span> <img src="img/arrow.svg" alt="alt"></a>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row row_footer">
+					<div class="col-lg-8 col-8">
+						<div class="head-section">
+							<div class="head-section__content">
+								<div class="title-middle fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.7s">contacts</div>
+								<h2 class="title-section fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.3s">ОСТАВАЙТЕСЬ НА СВЯЗИ</h2>
+							</div>
+						</div>
+						<div class="subtitle-page">Присоединяйтесь к нам в социальных сетях</div>
+						<ul class="list-socials">
+							<li><a href="#" target="_blank"><img src="img/tg.svg" alt="alt"></a></li>
+							<li><a href="#" target="_blank"><img src="img/inst.svg" alt="alt"></a></li>
+							<li><a href="#" target="_blank"><img src="img/yt.svg" alt="alt"></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-4">
+						<div class="footer__logo zoomIn wow" data-wow-iteration="1" data-wow-delay="0.7s">
+							<img src="img/logo2.svg" alt="alt">
+						</div>
+					</div>
+				</div>
+				<div class="row row_footer">
+					<div class="col-lg-8">
+						<div class="footer__contacts">
+							<div class="line-contacts">
+								<a href="tel:+79267812680" class="line-contacts__value">+7(926)781-26-80</a>
+								<div class="line-contacts__title">Номер телефона</div>
+							</div>
+							<div class="line-contacts">
+								<a href="mailto:shop@mysecondskin.ru" class="line-contacts__value">shop@mysecondskin.ru</a>
+								<div class="line-contacts__title">E-mail</div>
+							</div>
+							<div class="line-contacts">
+								<ul class="list-socials">
+									<li><a href="#" target="_blank"><img src="img/ic_tg.svg" alt="alt"></a></li>
+									<li><a href="#" target="_blank"><img src="img/ic_wp.svg" alt="alt"></a></li>
+								</ul>
+								<div class="line-contacts__title">ОБРАТНАЯ СВЯЗЬ </div>
+							</div>
+						</div>
+						<div class="footer__wrap">
+							<ul class="footer__nav">
+								<li><a href="#">КАТАЛОГ</a></li>
+								<li><a href="#">ОБРАЗЫ</a></li>
+								<li><a href="#">О НАС</a></li>
+								<li><a href="#">БЛОГ</a></li>
+								<li><a href="#">КОНТАКТЫ</a></li>
+								<li><a href="#">ОПЛАТА И ДОСТАВКА</a></li>
+								<li><a href="#">Возврат и обмен</a></li>
+								<li><a href="#">ИЗБРАННОЕ</a></li>
+								<li><a href="#">МОЙ КАБИНЕТ</a></li>
+							</ul>
+							<div class="footer__payments">
+								<p>СПОСОБЫ ОПЛАТЫ</p>
+								<ul class="list-payments">
+									<li><img src="img/pay1.png" alt="alt"></li>
+									<li><img src="img/pay2.png" alt="alt"></li>
+									<li><img src="img/pay3.png" alt="alt"></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col_form">
+						<div class="footer__form">
+							<div class="title-small"><strong>Подпишитесь на рассылку,</strong> чтобы быть в курсе последних новинок и акций </div>
+							<form>
+								<div class="item-form">
+									<input type="email" placeholder="Эл. почта" required="required">
+								</div>
+								<div class="form-bottom">
+									<input type="submit" class="btn-main" value="Отправить">
+									<div class="agree-form">Нажимая на кнопку вы соглащаетесь на <a href="#">обработку персональных данных</a></div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="footer-bottom__wrap">
+						<a href="#">Политика конфиденциальности</a>
+						<p>г. Москва © Copyright  2024 г.</p>
+						<div class="create">Сайт разработан в <a href="#"><img src="img/arcsis.svg" alt="alt"></a></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox-master/dist/jquery.fancybox.min.js"></script>
+	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+	<script src="libs/animate/wow.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/mask/jquery.maskedinput.js"></script>
+	<script src="libs/swiper/swiper-bundle.min.js"></script>
+	<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+	<script src="js/common.js?ver=1.1"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
