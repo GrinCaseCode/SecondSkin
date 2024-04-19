@@ -452,6 +452,7 @@ form {
 	position: absolute;
 	display: flex;
 	align-items: center;
+	z-index: 2;
 }
 .item-tag {
 	font-size: 14px;
@@ -532,6 +533,7 @@ form {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
+	z-index: 2;
 }
 .item-choise {
 	background: #f0f0f0;
@@ -1488,7 +1490,7 @@ form {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-}
+} 
 .item-color {
 	width: 21px;
 	height: 24px;
