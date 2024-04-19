@@ -1487,6 +1487,7 @@ form {
 .colors-list {
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 }
 .item-color {
 	width: 21px;
