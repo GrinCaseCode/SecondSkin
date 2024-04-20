@@ -95,6 +95,23 @@ $(document).mouseup(function (e) {
 		$(".menu-mobile").slideUp(200);
 	});
 
+	$(".colors-card__item").click(function() {
+		var titleColor = $(this).attr("data-title");
+		$(this).addClass("selected");
+		$(this).siblings(".colors-card__item").removeClass("selected");
+		$(".colors-card__title").html(titleColor);
+	});
+
+	$(".sizes-card__item").click(function() {
+		$(this).addClass("selected");
+		$(this).siblings(".sizes-card__item").removeClass("selected");
+	});
+
+	$(".btn-like").click(function() {
+		$(this).toggleClass("active");
+	});
+
+
 
 	$(document).mouseup(function (e) {
 		var container = $(".btn-header_search");
@@ -125,6 +142,22 @@ $(document).mouseup(function (e) {
 				el: ".swiper-scrollbar",
 				draggable: true,
 			},
+	  });
+	});
+
+	$('.swiper-card').each(function(){
+		var swiper = new Swiper(this, {
+			slidesPerView: 1,
+			slidesPerGroup: 1,
+			speed: 1000,
+			navigation: {
+				nextEl: (this, ".swiper-button-next"),
+				prevEl: (this, ".swiper-button-prev")
+			},
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			  }
 	  });
 	});
 
