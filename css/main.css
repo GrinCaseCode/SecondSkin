@@ -23,7 +23,7 @@ body input:required:valid,
 body textarea:required:valid {
 	
 }
-body {
+body { 
 	font-family: "Roboto";
 	font-size: 18px;
 	line-height: 160%;
