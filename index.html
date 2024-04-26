@@ -33,7 +33,7 @@
 							<li><a href="#">Каталог</a></li>
 							<li><a href="#">Образы</a></li>
 							<li><a href="#">Новинки</a></li>
-							<li class="menu__sale"><a href="#">Sale</a></li>
+							<li class="menu__sale"><a href="#modal-sale" class="fancybox">Sale</a></li>
 							<li><a href="#">Войти</a></li>
 						</ul>
 						<div class="sandwich"></div>
@@ -232,7 +232,7 @@
 					</li>
 					<li><a href="#">Образы</a></li>
 					<li><a href="#">Новинки</a></li>
-					<li class="menu__sale"><a href="#">Sale</a></li>
+					<li class="menu__sale"><a href="#modal-sale" class="fancybox">Sale</a></li>
 					<li><a href="#">О нас</a></li>
 					<li><a href="#">Оплата и доставка</a></li>
 					<li><a href="#">Возврат и обмен</a></li>
@@ -1142,6 +1142,160 @@
 			</div>
 		</footer>
 		
+	</div>
+
+	<div id="modal-subscribe-product" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-middle">Подписаться на товар</div>
+			<p>Сообщим вам о поступлении</p>
+			<form>
+				<div class="item-form">
+					<input type="email" placeholder="Эл. почта" required="required">
+				</div>
+				<input type="submit" class="btn-main" value="Отправить">
+			</form>
+		</div>
+	</div>
+
+	<div id="modal-sizes" class="modal-block">
+		<div class="modal-wrap modal-wrap_sizes">
+			<div class="title-middle title-middle_min">размерная сетка</div>
+			<div class="table-main hidden-mob">
+				<table>
+					<thead>
+						<tr>
+							<th>Размеры</th>
+							<th>XS (42)</th>
+							<th>S (44)</th>
+							<th>M (46)</th>
+							<th>L (48)</th>
+							<th>XL (50)</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Длина изделия по боковому шву</td>
+							<td>113</td>
+							<td>113</td>
+							<td>113</td>
+							<td>113</td>
+							<td>113</td>
+						</tr>
+						<tr>
+							<td>Ширина по бёдрам, см</td>
+							<td>50</td>
+							<td>52</td>
+							<td>54</td>
+							<td>56</td>
+							<td>58</td>
+						</tr>
+						<tr>
+							<td>Объем пояса, см</td>
+							<td>68</td>
+							<td>72</td>
+							<td>76</td>
+							<td>82</td>
+							<td>88</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="table-main show-mob">
+				<table>
+					<thead>
+						<tr>
+							<th>Размеры</th>
+							<th>Длина изделия по боковому шву</th>
+							<th>Ширина по бёдрам, см</th>
+							<th>Объем пояса, 
+								см</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>XS (42)</td>
+							<td>113</td>
+							<td>50</td>
+							<td>68</td>
+						</tr>
+						<tr>
+							<td>S (44)</td>
+							<td>113</td>
+							<td>52</td>
+							<td>72</td>
+						</tr>
+						<tr>
+							<td>M (46)</td>
+							<td>113</td>
+							<td>54</td>
+							<td>76</td>
+						</tr>
+						<tr>
+							<td>L (48)</td>
+							<td>113</td>
+							<td>56</td>
+							<td>82</td>
+						</tr>
+						<tr>
+							<td>XL (50)</td>
+							<td>113</td>
+							<td>58</td>
+							<td>88</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-feedback" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-middle">Обратная связь</div>	
+			<form>
+				<div class="item-form">
+					<input type="text" placeholder="Ваше имя" required="required">
+				</div>
+				<div class="item-form">
+					<input type="email" placeholder="Эл. почта" required="required">
+				</div>
+				<div class="item-form">
+					<input type="text" placeholder="Номер телефона" class="input-phone" required="required">
+				</div>
+				<div class="item-form">
+					<textarea placeholder="комментарий" required="required"></textarea>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" required="required" checked="checked" />
+						<span>Нажимая на кнопку вы соглашаетесь на <a href="#">обработку персональных данных</a></span>
+					</label>
+				</div>
+				<input type="submit" class="btn-main" value="Отправить">
+			</form>
+		</div>
+	</div>
+
+	<div id="modal-thanks" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-middle">Спасибо за заявку!</div>	
+			<p>Ваша заявка находится в обработке</p>
+			<a href="/" class="btn-main">Вернуться назад</a>
+		</div>
+	</div>
+
+	<div id="modal-sale" class="modal-block">
+		<div class="modal-sale">
+			<div class="modal-sale__image">
+				<img src="img/modal_sale.jpg" alt="alt">
+			</div>
+			<div class="modal-sale__content">
+				<div class="title-middle">Акция 2+1</div>	
+				<p>Купи две вещи и получи в подарок одну вещь из старой коллекции</p>
+				<div class="modal-sale__bottom">
+					<a href="#" class="btn-main">подробнее</a>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<!--[if lt IE 9]>

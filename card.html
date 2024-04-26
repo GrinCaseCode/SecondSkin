@@ -17,9 +17,9 @@
 	<link rel="stylesheet" href="libs/fancybox-master/dist/jquery.fancybox.min.css" />
 	<link rel="stylesheet" href="libs/animate/animate.min.css" />
 	<link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css" />
-	<link rel="stylesheet" href="css/fonts.css?ver=1.2" />
-	<link rel="stylesheet" href="css/main.css?ver=1.6" />
-	<link rel="stylesheet" href="css/media.css?ver=1.6" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.5" />
+	<link rel="stylesheet" href="css/media.css?ver=1.5" />
 </head>
 <body>
 
@@ -262,860 +262,110 @@
 			</div>
 		</header>
 
-		<section class="page-catalog">
+		<section class="page-card">
 			<div class="container">
 				<ul class="breadcrumbs">
 					<li><a href="#">Главная</a></li>
-					<li>Каталог</li>
+					<li><a href="#">Костюмы</a></li>
+					<li>Костюм спорт-шик из костюмной ткани</li>
 				</ul>
 				<div class="row">
-					<div class="col-lg-3">
-						<h1 class="title-block">Каталог</h1>
-						<div class="sidebar-catalog">
-							<ul class="list-sidebar">
-								<li class="active"><a href="#">Все</a></li>
-								<li><a href="#">Новинки</a></li>
-								<li class="list-sidebar__sale"><a href="#">Sale%</a></li>
-								<li class="list-sidebar__haschild">
-									<a href="#">Бестселлеры</a>
-									<ul>
-										<li><a href="#">Топы</a></li>
-										<li><a href="#">Брюки</a></li>
-										<li><a href="#">Платья</a></li>
-									</ul>
-								</li>
-								<li><a href="#">Жакеты</a></li>
-								<li><a href="#">Брюки</a></li>
-								<li><a href="#">Костюмы</a></li>
-								<li><a href="#">Бомберы</a></li>
-								<li><a href="#">Футболки</a></li>
-								<li><a href="#">Платья</a></li>
-								<li><a href="#">Юбки</a></li>
-								<li><a href="#">Спорт</a></li>
-								<li><a href="#">Скоро в продаже</a></li>
-							</ul>
+					<div class="col-lg-5">
+						<div class="swiper swiper-card">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<a href="img/card1.jpg" class="image-card fancybox">
+										<img src="img/card1.jpg" alt="alt">
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="img/card1.jpg" class="image-card fancybox">
+										<img src="img/card1.jpg" alt="alt">
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="img/card1.jpg" class="image-card fancybox">
+										<img src="img/card1.jpg" alt="alt">
+									</a>
+								</div>
+							</div>
+							<div class="swiper-btn swiper-button-prev"></div>
+							<div class="swiper-btn swiper-button-next"></div>
+							<div class="swiper-pagination"></div>
 						</div>
 					</div>
-					<div class="col-lg-9">
-						<div class="sorting-catalog">
-							<div class="btn-filter-mobile"><img src="img/filter.svg" alt="alt">Фильтр</div>
-							<div class="filter-mobile">
-								<div class="filter-mobile__close"></div>
-								<div class="filter-mobile__title">Фильтр</div>
-								<div class="filter-mobile__item">
-									<div class="filter-mobile__subtitle">Цена</div>
-									<div class="price-inputs">
-										<div class="price-inputs__item">
-											<input type="text" value="2 000">
-										</div>
-										<div class="price-inputs__slash"></div>
-										<div class="price-inputs__item">
-											<input type="text" value="25 000">
-										</div>
-										<button class="price-inputs__button">Применить</button>
-									</div>
-								</div>
-								<div class="filter-mobile__item">
-									<div class="filter-mobile__subtitle">Размер</div>
-									<ul class="list-checks">
-										<li>
-											<div class="item-check">
-												<label>
-													<input type="checkbox" />
-													<span class="item-check__content">
-														<span class="item-check__icon"></span>
-														<span>XS</span>
-													</span>
-												</label>
-											</div>
-										</li>
-										<li>
-											<div class="item-check">
-												<label>
-													<input type="checkbox" />
-													<span class="item-check__content">
-														<span class="item-check__icon"></span>
-														<span>S</span>
-													</span>
-												</label>
-											</div>
-										</li>
-										<li>
-											<div class="item-check">
-												<label>
-													<input type="checkbox" />
-													<span class="item-check__content">
-														<span class="item-check__icon"></span>
-														<span>M</span>
-													</span>
-												</label>
-											</div>
-										</li>
-										<li>
-											<div class="item-check">
-												<label>
-													<input type="checkbox" checked="checked" />
-													<span class="item-check__content">
-														<span class="item-check__icon"></span>
-														<span>L</span>
-													</span>
-												</label>
-											</div>
-										</li>
-										<li>
-											<div class="item-check">
-												<label>
-													<input type="checkbox" checked="checked" />
-													<span class="item-check__content">
-														<span class="item-check__icon"></span>
-														<span>XL</span>
-													</span>
-												</label>
-											</div>
-										</li>
-										<li>
-											<div class="item-check">
-												<label>
-													<input type="checkbox" />
-													<span class="item-check__content">
-														<span class="item-check__icon"></span>
-														<span>XXL</span>
-													</span>
-												</label>
-											</div>
-										</li>
-									</ul>
-								</div>
-								<div class="filter-mobile__item">
-									<div class="filter-mobile__subtitle">Цвет</div>
-									<ul class="list-checks">
-										<li>
-											<div class="item-check">
-												<label>
-													<input type="checkbox" />
-													<span class="item-check__content">
-														<span class="item-check__icon"></span>
-														<span class="item-check__color">
-															<img src="img/color_check1.svg" alt="alt">
-														</span>
-														<span>Черный</span>
-													</span>
-												</label>
-											</div>
-										</li>
-										<li>
-											<div class="item-check">
-												<label>
-													<input type="checkbox" />
-													<span class="item-check__content">
-														<span class="item-check__icon"></span>
-														<span class="item-check__color">
-															<img src="img/color_check2.svg" alt="alt">
-														</span>
-														<span>Белый</span>
-													</span>
-												</label>
-											</div>
-										</li>
-										<li>
-											<div class="item-check">
-												<label>
-													<input type="checkbox" />
-													<span class="item-check__content">
-														<span class="item-check__icon"></span>
-														<span class="item-check__color">
-															<img src="img/color_check3.svg" alt="alt">
-														</span>
-														<span>Серый</span>
-													</span>
-												</label>
-											</div>
-										</li>
-										<li>
-											<div class="item-check">
-												<label>
-													<input type="checkbox" />
-													<span class="item-check__content">
-														<span class="item-check__icon"></span>
-														<span class="item-check__color">
-															<img src="img/color_check4.svg" alt="alt">
-														</span>
-														<span>Бежевый</span>
-													</span>
-												</label>
-											</div>
-										</li>
-										<li>
-											<div class="item-check">
-												<label>
-													<input type="checkbox" />
-													<span class="item-check__content">
-														<span class="item-check__icon"></span>
-														<span class="item-check__color">
-															<img src="img/color_check5.svg" alt="alt">
-														</span>
-														<span>Зеленый</span>
-													</span>
-												</label>
-											</div>
-										</li>
-										<li>
-											<div class="item-check">
-												<label>
-													<input type="checkbox" />
-													<span class="item-check__content">
-														<span class="item-check__icon"></span>
-														<span class="item-check__color">
-															<img src="img/color_check6.svg" alt="alt">
-														</span>
-														<span>Фиолетовый</span>
-													</span>
-												</label>
-											</div>
-										</li>
-									</ul>
-								</div>
+					<div class="col-lg-7 col_card">
+						<div class="card-head">
+							<div class="tags-wrap">
+								<div class="item-tag item-tag_hit">HIT</div>
+								<div class="item-tag">New</div>
 							</div>
-							<div class="sorting-catalog__left">
-								<div class="item-dropdown item-dropdown_price">
-									<div class="item-dropdown__value">Цена <i class="fal fa-chevron-down"></i></div>
-									<div class="item-dropdown__content">
-										<div class="price-inputs">
-											<div class="price-inputs__item">
-												<input type="text" value="2 000">
-											</div>
-											<div class="price-inputs__slash"></div>
-											<div class="price-inputs__item">
-												<input type="text" value="25 000">
-											</div>
-											<button class="price-inputs__button">Применить</button>
-										</div>
-									</div>
-								</div>
-								<div class="item-dropdown">
-									<div class="item-dropdown__value">Размер <i class="fal fa-chevron-down"></i></div>
-									<div class="item-dropdown__content">
-										<ul class="list-checks">
-											<li>
-												<div class="item-check">
-													<label>
-														<input type="checkbox" />
-														<span class="item-check__content">
-															<span class="item-check__icon"></span>
-															<span>XS</span>
-														</span>
-													</label>
-												</div>
-											</li>
-											<li>
-												<div class="item-check">
-													<label>
-														<input type="checkbox" />
-														<span class="item-check__content">
-															<span class="item-check__icon"></span>
-															<span>S</span>
-														</span>
-													</label>
-												</div>
-											</li>
-											<li>
-												<div class="item-check">
-													<label>
-														<input type="checkbox" />
-														<span class="item-check__content">
-															<span class="item-check__icon"></span>
-															<span>M</span>
-														</span>
-													</label>
-												</div>
-											</li>
-											<li>
-												<div class="item-check">
-													<label>
-														<input type="checkbox" checked="checked" />
-														<span class="item-check__content">
-															<span class="item-check__icon"></span>
-															<span>L</span>
-														</span>
-													</label>
-												</div>
-											</li>
-											<li>
-												<div class="item-check">
-													<label>
-														<input type="checkbox" checked="checked" />
-														<span class="item-check__content">
-															<span class="item-check__icon"></span>
-															<span>XL</span>
-														</span>
-													</label>
-												</div>
-											</li>
-											<li>
-												<div class="item-check">
-													<label>
-														<input type="checkbox" />
-														<span class="item-check__content">
-															<span class="item-check__icon"></span>
-															<span>XXL</span>
-														</span>
-													</label>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-								<div class="item-dropdown">
-									<div class="item-dropdown__value">Цвет <i class="fal fa-chevron-down"></i></div>
-									<div class="item-dropdown__content">
-										<ul class="list-checks">
-											<li>
-												<div class="item-check">
-													<label>
-														<input type="checkbox" />
-														<span class="item-check__content">
-															<span class="item-check__icon"></span>
-															<span class="item-check__color">
-																<img src="img/color_check1.svg" alt="alt">
-															</span>
-															<span>Черный</span>
-														</span>
-													</label>
-												</div>
-											</li>
-											<li>
-												<div class="item-check">
-													<label>
-														<input type="checkbox" />
-														<span class="item-check__content">
-															<span class="item-check__icon"></span>
-															<span class="item-check__color">
-																<img src="img/color_check2.svg" alt="alt">
-															</span>
-															<span>Белый</span>
-														</span>
-													</label>
-												</div>
-											</li>
-											<li>
-												<div class="item-check">
-													<label>
-														<input type="checkbox" />
-														<span class="item-check__content">
-															<span class="item-check__icon"></span>
-															<span class="item-check__color">
-																<img src="img/color_check3.svg" alt="alt">
-															</span>
-															<span>Серый</span>
-														</span>
-													</label>
-												</div>
-											</li>
-											<li>
-												<div class="item-check">
-													<label>
-														<input type="checkbox" />
-														<span class="item-check__content">
-															<span class="item-check__icon"></span>
-															<span class="item-check__color">
-																<img src="img/color_check4.svg" alt="alt">
-															</span>
-															<span>Бежевый</span>
-														</span>
-													</label>
-												</div>
-											</li>
-											<li>
-												<div class="item-check">
-													<label>
-														<input type="checkbox" />
-														<span class="item-check__content">
-															<span class="item-check__icon"></span>
-															<span class="item-check__color">
-																<img src="img/color_check5.svg" alt="alt">
-															</span>
-															<span>Зеленый</span>
-														</span>
-													</label>
-												</div>
-											</li>
-											<li>
-												<div class="item-check">
-													<label>
-														<input type="checkbox" />
-														<span class="item-check__content">
-															<span class="item-check__icon"></span>
-															<span class="item-check__color">
-																<img src="img/color_check6.svg" alt="alt">
-															</span>
-															<span>Фиолетовый</span>
-														</span>
-													</label>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-								<button class="btn-clear">Сбросить</button>
+							<div class="articul">Арт: 12345678</div>
+						</div>
+						<h1 class="title-block">Костюм спорт-шик из костюмной ткани</h1>
+						<div class="prices-card">
+							<div class="price-main">59.99 RUB</div>
+							<div class="price-old">80.00 RUB</div>
+						</div>
+						<div class="title-middle">Цвет</div>
+						<div class="colors-card">
+							<div class="colors-card__item selected" data-title="Черный">
+								<img src="img/color_card1.svg" alt="alt">
 							</div>
-							<div class="item-select">
-								<select>
-									<option value="1">По популярности</option>
-									<option value="1">По алфавиту</option>
-									<option value="1">По цене</option>
-									<option value="1">По дате</option>
-								</select>
+							<div class="colors-card__item" data-title="Серый">
+								<img src="img/color_card2.svg" alt="alt">
+							</div>
+							<div class="colors-card__item disabled" data-title="Бежевый">
+								<img src="img/color_card3.svg" alt="alt">
+							</div>
+							<div class="colors-card__title">Черный</div>
+						</div>
+						<div class="title-middle">ВЫБЕРИТЕ РАЗМЕР</div>
+						<div class="sizes-card">
+							<div class="sizes-card__item">S</div>
+							<div class="sizes-card__item">M</div>
+							<div class="sizes-card__item selected">L</div>
+							<div class="sizes-card__item disabled">XL</div>
+							<div class="sizes-card__item disabled">XXL</div>
+						</div>
+						<a href="#modal-sizes" class="link-default fancybox">Таблица размеров</a>
+						<div class="buttons-card">
+							<a href="#" class="btn-main">Добавить в корзину</a>
+							<div class="btn-like btn-like_card"></div>
+						</div>
+						<ul class="tabs-card">
+							<li class="active"><a href="#tab_card1">ОПИСАНИЕ</a></li>
+							<li><a href="#tab_card2">ДОСТАВКА И ВОЗВРАТ</a></li>
+						</ul>
+						<div class="tab-container-card">
+							<div class="tab-pane-card" id="tab_card1">
+								<p>Жакет из эластичной костюмной ткани, которая не стесняет движений. Самостоятельное изделие и элемент костюма-тройки. Четкая линия плеча делает силуэт более структурным и сбалансированным.Идеальная базовая модель для составления деловых и smart casual комплектов.Для более расслабленных образов сочетайте жакет с джинсами и футболкой.</p>
+								<p>Состав: 70% вискоза, 30% полиэстер, подкладка - 100% полиэстер.</p>
+								<p>Уход: Ручная стирка при 30 градусах,глажка при температуре не выше 110 градусов,отбеливание запрещено</p>
+								<p>Параметры модели: 177/82/62/86 <br>На модели размер: S</p>
+							</div>
+							<div class="tab-pane-card" id="tab_card2">
+								<p>Жакет из эластичной костюмной ткани, которая не стесняет движений. Самостоятельное изделие и элемент костюма-тройки. Четкая линия плеча делает силуэт более структурным и сбалансированным.Идеальная базовая модель для составления деловых и smart casual комплектов.Для более расслабленных образов сочетайте жакет с джинсами и футболкой.</p>
+								<p>Состав: 70% вискоза, 30% полиэстер, подкладка - 100% полиэстер.</p>
+								<p>Уход: Ручная стирка при 30 градусах,глажка при температуре не выше 110 градусов,отбеливание запрещено</p>
+								<p>Параметры модели: 177/82/62/86 <br>На модели размер: S</p>
 							</div>
 						</div>
-						<div class="row row_main">
-							<div class="col-md-4 col-6">
-								<div class="item-catalog">
-									<div class="tags-wrap">
-										<div class="item-tag item-tag_hit">HIT</div>
-										<div class="item-tag">New</div>
-									</div>
-									<div class="btn-like"></div>
-									<a href="#" class="item-catalog__image">
-										<img src="img/catalog3.jpg" alt="alt">
-										<span class="item-catalog__info">
-											<span class="item-catalog__subitle">Цвета</span>
-											<span class="colors-list">
-												<span class="item-color">
-													<img src="img/color1.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color2.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color3.svg" alt="alt">
-												</span>
-											</span>
-										</span>
-									</a>
-									<div class="item-catalog__content">
-										<a href="#" class="item-catalog__title">Костюм спорт-шик <br>из костюмной тканика </a>
-										<div class="item-catalog__prices">
-											<div class="price-new">59.99 RUB</div>
-											<div class="price-old">80.00 RUB</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 col-6">
-								<div class="item-catalog">
-									<div class="tags-wrap">
-										<div class="item-tag item-tag_hit">HIT</div>
-										<div class="item-tag">New</div>
-									</div>
-									<div class="btn-like"></div>
-									<a href="#" class="item-catalog__image">
-										<img src="img/catalog2.jpg" alt="alt">
-										<span class="item-catalog__info">
-											<span class="item-catalog__subitle">Цвета</span>
-											<span class="colors-list">
-												<span class="item-color">
-													<img src="img/color1.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color2.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color3.svg" alt="alt">
-												</span>
-											</span>
-										</span>
-									</a>
-									<div class="item-catalog__content">
-										<a href="#" class="item-catalog__title">Футболка белого цвета </a>
-										<div class="item-catalog__prices">
-											<div class="price-main">59.99 RUB</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 col-6">
-								<div class="item-catalog">
-									<div class="tags-wrap">
-										<div class="item-tag item-tag_hit">HIT</div>
-										<div class="item-tag">New</div>
-									</div>
-									<div class="btn-like"></div>
-									<a href="#" class="item-catalog__image">
-										<img src="img/catalog6.png" alt="alt">
-										<span class="item-catalog__info">
-											<span class="item-catalog__subitle">Цвета</span>
-											<span class="colors-list">
-												<span class="item-color">
-													<img src="img/color1.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color2.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color3.svg" alt="alt">
-												</span>
-											</span>
-										</span>
-									</a>
-									<div class="item-catalog__content">
-										<a href="#" class="item-catalog__title">Футболка белого цвета </a>
-										<div class="item-catalog__prices">
-											<div class="price-main">59.99 RUB</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 col-6">
-								<div class="item-catalog">
-									<div class="tags-wrap">
-										<div class="item-tag item-tag_hit">HIT</div>
-										<div class="item-tag">New</div>
-									</div>
-									<div class="btn-like"></div>
-									<a href="#" class="item-catalog__image">
-										<img src="img/catalog2.jpg" alt="alt">
-										<span class="item-catalog__info">
-											<span class="item-catalog__subitle">Цвета</span>
-											<span class="colors-list">
-												<span class="item-color">
-													<img src="img/color1.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color2.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color3.svg" alt="alt">
-												</span>
-											</span>
-										</span>
-									</a>
-									<div class="item-catalog__content">
-										<a href="#" class="item-catalog__title">Футболка белого цвета </a>
-										<div class="item-catalog__prices">
-											<div class="price-main">59.99 RUB</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 col-6">
-								<div class="item-catalog">
-									<div class="tags-wrap">
-										<div class="item-tag item-tag_hit">HIT</div>
-										<div class="item-tag">New</div>
-									</div>
-									<div class="btn-like"></div>
-									<a href="#" class="item-catalog__image">
-										<img src="img/catalog6.png" alt="alt">
-										<span class="item-catalog__info">
-											<span class="item-catalog__subitle">Цвета</span>
-											<span class="colors-list">
-												<span class="item-color">
-													<img src="img/color1.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color2.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color3.svg" alt="alt">
-												</span>
-											</span>
-										</span>
-									</a>
-									<div class="item-catalog__content">
-										<a href="#" class="item-catalog__title">Футболка белого цвета </a>
-										<div class="item-catalog__prices">
-											<div class="price-main">59.99 RUB</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 col-6">
-								<div class="item-catalog">
-									<div class="tags-wrap">
-										<div class="item-tag item-tag_hit">HIT</div>
-										<div class="item-tag">New</div>
-									</div>
-									<div class="btn-like"></div>
-									<a href="#" class="item-catalog__image">
-										<img src="img/catalog3.jpg" alt="alt">
-										<span class="item-catalog__info">
-											<span class="item-catalog__subitle">Цвета</span>
-											<span class="colors-list">
-												<span class="item-color">
-													<img src="img/color1.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color2.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color3.svg" alt="alt">
-												</span>
-											</span>
-										</span>
-									</a>
-									<div class="item-catalog__content">
-										<a href="#" class="item-catalog__title">Костюм спорт-шик <br>из костюмной тканика </a>
-										<div class="item-catalog__prices">
-											<div class="price-new">59.99 RUB</div>
-											<div class="price-old">80.00 RUB</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 col-6">
-								<div class="item-catalog">
-									<div class="tags-wrap">
-										<div class="item-tag item-tag_hit">HIT</div>
-										<div class="item-tag">New</div>
-									</div>
-									<div class="btn-like"></div>
-									<a href="#" class="item-catalog__image">
-										<img src="img/catalog2.jpg" alt="alt">
-										<span class="item-catalog__info">
-											<span class="item-catalog__subitle">Цвета</span>
-											<span class="colors-list">
-												<span class="item-color">
-													<img src="img/color1.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color2.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color3.svg" alt="alt">
-												</span>
-											</span>
-										</span>
-									</a>
-									<div class="item-catalog__content">
-										<a href="#" class="item-catalog__title">Футболка белого цвета </a>
-										<div class="item-catalog__prices">
-											<div class="price-main">59.99 RUB</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 col-6">
-								<div class="item-catalog">
-									<div class="tags-wrap">
-										<div class="item-tag item-tag_hit">HIT</div>
-										<div class="item-tag">New</div>
-									</div>
-									<div class="btn-like"></div>
-									<a href="#" class="item-catalog__image">
-										<img src="img/catalog3.jpg" alt="alt">
-										<span class="item-catalog__info">
-											<span class="item-catalog__subitle">Цвета</span>
-											<span class="colors-list">
-												<span class="item-color">
-													<img src="img/color1.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color2.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color3.svg" alt="alt">
-												</span>
-											</span>
-										</span>
-									</a>
-									<div class="item-catalog__content">
-										<a href="#" class="item-catalog__title">Костюм спорт-шик <br>из костюмной тканика </a>
-										<div class="item-catalog__prices">
-											<div class="price-new">59.99 RUB</div>
-											<div class="price-old">80.00 RUB</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 col-6">
-								<div class="item-catalog">
-									<div class="tags-wrap">
-										<div class="item-tag item-tag_hit">HIT</div>
-										<div class="item-tag">New</div>
-									</div>
-									<div class="btn-like"></div>
-									<a href="#" class="item-catalog__image">
-										<img src="img/catalog6.png" alt="alt">
-										<span class="item-catalog__info">
-											<span class="item-catalog__subitle">Цвета</span>
-											<span class="colors-list">
-												<span class="item-color">
-													<img src="img/color1.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color2.svg" alt="alt">
-												</span>
-												<span class="item-color">
-													<img src="img/color3.svg" alt="alt">
-												</span>
-											</span>
-										</span>
-									</a>
-									<div class="item-catalog__content">
-										<a href="#" class="item-catalog__title">Футболка белого цвета </a>
-										<div class="item-catalog__prices">
-											<div class="price-main">59.99 RUB</div>
-										</div>
-									</div>
-								</div>
-							</div>
+						<div class="title-middle title-middle_min">Задать вопрос по товару</div>
+						<div class="links-card">
+							<a href="#" class="btn-main"><img src="img/btn_tg.svg" alt="alt">Telegram</a>
+							<a href="#" class="btn-main"><img src="img/btn_wp.svg" alt="alt">WhatsApp</a>
 						</div>
-						<div class="button-more">
-							<a href="#" class="btn-main">Смотреть еще</a>
-						</div>
-						<div class="pager">
-							<a class="prev page-numbers disabled" href="#"><i class="far fa-chevron-left"></i></a>
-							<span aria-current="page" class="page-numbers current" href="#">1</span> 
-							<a class="page-numbers" href="#">2</a>
-							<a class="page-numbers" href="#">3</a>
-							<a class="page-numbers" href="#">4</a>
-							<span class="page-numbers dots">…</span>
-							<a class="page-numbers" href="#">8</a>
-							<a class="next page-numbers" href="#"><i class="far fa-chevron-right"></i></a>
-						</div>
-					</div>
+					</div> 
 				</div>
 			</div>
 		</section>
 
-		<section class="popular">
+		<section class="recommendations">
 			<div class="container">
-				<div class="head-section">
-					<div class="head-section__content">
-						<h2 class="title-block">Вы смотрели</h2>
-					</div>
-				</div>
+				<h2 class="title-block">Дополните образ </h2>
 				<div class="swiper swiper-catalog">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<div class="item-catalog">
-								<div class="tags-wrap">
-									<div class="item-tag item-tag_hit">HIT</div>
-									<div class="item-tag">New</div>
-								</div>
-								<div class="btn-like"></div>
-								<a href="#" class="item-catalog__image">
-									<img src="img/catalog1.jpg" alt="alt">
-									<span class="item-catalog__info">
-										<span class="item-catalog__subitle">Цвета</span>
-										<span class="colors-list">
-											<span class="item-color">
-												<img src="img/color1.svg" alt="alt">
-											</span>
-											<span class="item-color">
-												<img src="img/color2.svg" alt="alt">
-											</span>
-											<span class="item-color">
-												<img src="img/color3.svg" alt="alt">
-											</span>
-										</span>
-									</span>
-								</a>
-								<div class="item-catalog__content">
-									<a href="#" class="item-catalog__title">Футболка белого цвета </a>
-									<div class="item-catalog__prices">
-										<div class="price-main">59.99 RUB</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="item-catalog">
-								<div class="tags-wrap">
-									<div class="item-tag item-tag_hit">HIT</div>
-									<div class="item-tag">New</div>
-								</div>
-								<div class="btn-like"></div>
-								<a href="#" class="item-catalog__image">
-									<img src="img/catalog2.jpg" alt="alt">
-									<span class="item-catalog__info">
-										<span class="item-catalog__subitle">Цвета</span>
-										<span class="colors-list">
-											<span class="item-color">
-												<img src="img/color1.svg" alt="alt">
-											</span>
-											<span class="item-color">
-												<img src="img/color2.svg" alt="alt">
-											</span>
-											<span class="item-color">
-												<img src="img/color3.svg" alt="alt">
-											</span>
-										</span>
-									</span>
-								</a>
-								<div class="item-catalog__content">
-									<a href="#" class="item-catalog__title">Футболка белого цвета </a>
-									<div class="item-catalog__prices">
-										<div class="price-main">59.99 RUB</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="item-catalog">
-								<div class="tags-wrap">
-									<div class="item-tag item-tag_hit">HIT</div>
-									<div class="item-tag">New</div>
-								</div>
-								<div class="btn-like"></div>
-								<a href="#" class="item-catalog__image">
-									<img src="img/catalog3.jpg" alt="alt">
-									<span class="item-catalog__info">
-										<span class="item-catalog__subitle">Цвета</span>
-										<span class="colors-list">
-											<span class="item-color">
-												<img src="img/color1.svg" alt="alt">
-											</span>
-											<span class="item-color">
-												<img src="img/color2.svg" alt="alt">
-											</span>
-											<span class="item-color">
-												<img src="img/color3.svg" alt="alt">
-											</span>
-										</span>
-									</span>
-								</a>
-								<div class="item-catalog__content">
-									<a href="#" class="item-catalog__title">Костюм спорт-шик <br>из костюмной тканика </a>
-									<div class="item-catalog__prices">
-										<div class="price-new">59.99 RUB</div>
-										<div class="price-old">80.00 RUB</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="item-catalog">
-								<div class="tags-wrap">
-									<div class="item-tag item-tag_hit">HIT</div>
-									<div class="item-tag">New</div>
-								</div>
-								<div class="btn-like"></div>
-								<a href="#" class="item-catalog__image">
-									<img src="img/catalog4.png" alt="alt">
-									<span class="item-catalog__info">
-										<span class="item-catalog__subitle">Цвета</span>
-										<span class="colors-list">
-											<span class="item-color">
-												<img src="img/color1.svg" alt="alt">
-											</span>
-											<span class="item-color">
-												<img src="img/color2.svg" alt="alt">
-											</span>
-											<span class="item-color">
-												<img src="img/color3.svg" alt="alt">
-											</span>
-										</span>
-									</span>
-								</a>
-								<div class="item-catalog__content">
-									<a href="#" class="item-catalog__title">Костюм спорт-шик <br>из костюмной тканика </a>
-									<div class="item-catalog__prices">
-										<div class="price-main">59.99 RUB</div>
-									</div>
-								</div>
-							</div>
-						</div>
 						<div class="swiper-slide">
 							<div class="item-catalog">
 								<div class="tags-wrap">
@@ -1251,35 +501,282 @@
 			</div>
 		</section>
 
-		<section class="catalog-about">
+		<section class="recommendations">
 			<div class="container">
-				<div class="head-section">
-					<div class="head-section__content">
-						<div class="title-middle fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.7s">catalog</div>
-						<h2 class="title-section fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.3s">Каталог </h2>
-					</div>
-					<div class="head-section__descr fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.3s">Каталог модной женской одежды Second Skin</div>
-				</div>
-				<div class="catalog-about__content fadeIn wow" data-wow-iteration="1" data-wow-delay="0.6s">
-					<div class="row">
-						<div class="col-lg-8">
-							<div class="catalog-about__text">
-								<p>Second Skin – это одежда для женщин, которые ведут активный образ жизни. Если Вы мама, бизнесвумен, девушка, которая ищет себя и не определилась со своим призванием - тогда секонд скин для тебя! </p>
-								<p>Это одежда для всех женщин, которые ценят комфорт, стиль, качество, уникальность и своё время. В этой одежде Вы всегда будете выглядеть модно, но при этом оставаться в своём стиле и чувствовать себя собой. </p>
+				<h2 class="title-block">Весь образ на фото</h2>
+				<div class="swiper swiper-catalog">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="item-catalog">
+								<div class="tags-wrap">
+									<div class="item-tag item-tag_hit">HIT</div>
+									<div class="item-tag">New</div>
+								</div>
+								<div class="btn-like"></div>
+								<a href="#" class="item-catalog__image">
+									<img src="img/catalog1.jpg" alt="alt">
+									<span class="item-catalog__info">
+										<span class="item-catalog__subitle">Цвета</span>
+										<span class="colors-list">
+											<span class="item-color">
+												<img src="img/color1.svg" alt="alt">
+											</span>
+											<span class="item-color">
+												<img src="img/color2.svg" alt="alt">
+											</span>
+											<span class="item-color">
+												<img src="img/color3.svg" alt="alt">
+											</span>
+										</span>
+									</span>
+								</a>
+								<div class="item-catalog__content">
+									<a href="#" class="item-catalog__title">Футболка белого цвета </a>
+									<div class="item-catalog__prices">
+										<div class="price-main">59.99 RUB</div>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="col-lg-4">
-							<div class="catalog-about__info">
-								<div class="catalog-about__descr">Мы счастливы создавать для вас беспрецедентный комфорт в любой ситуации.</div>
-								<div class="catalog-about__bottom">
-									<div class="title-middle">Ваш SECOND.SKIN </div>
-									<div class="catalog-about__logo">
-										<img src="img/logo_about.svg" alt="alt">
+						<div class="swiper-slide">
+							<div class="item-catalog">
+								<div class="tags-wrap">
+									<div class="item-tag item-tag_hit">HIT</div>
+									<div class="item-tag">New</div>
+								</div>
+								<div class="btn-like"></div>
+								<a href="#" class="item-catalog__image">
+									<img src="img/catalog2.jpg" alt="alt">
+									<span class="item-catalog__info">
+										<span class="item-catalog__subitle">Цвета</span>
+										<span class="colors-list">
+											<span class="item-color">
+												<img src="img/color1.svg" alt="alt">
+											</span>
+											<span class="item-color">
+												<img src="img/color2.svg" alt="alt">
+											</span>
+											<span class="item-color">
+												<img src="img/color3.svg" alt="alt">
+											</span>
+										</span>
+									</span>
+								</a>
+								<div class="item-catalog__content">
+									<a href="#" class="item-catalog__title">Футболка белого цвета </a>
+									<div class="item-catalog__prices">
+										<div class="price-main">59.99 RUB</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="item-catalog">
+								<div class="tags-wrap">
+									<div class="item-tag item-tag_hit">HIT</div>
+									<div class="item-tag">New</div>
+								</div>
+								<div class="btn-like"></div>
+								<a href="#" class="item-catalog__image">
+									<img src="img/catalog3.jpg" alt="alt">
+									<span class="item-catalog__info">
+										<span class="item-catalog__subitle">Цвета</span>
+										<span class="colors-list">
+											<span class="item-color">
+												<img src="img/color1.svg" alt="alt">
+											</span>
+											<span class="item-color">
+												<img src="img/color2.svg" alt="alt">
+											</span>
+											<span class="item-color">
+												<img src="img/color3.svg" alt="alt">
+											</span>
+										</span>
+									</span>
+								</a>
+								<div class="item-catalog__content">
+									<a href="#" class="item-catalog__title">Костюм спорт-шик <br>из костюмной тканика </a>
+									<div class="item-catalog__prices">
+										<div class="price-new">59.99 RUB</div>
+										<div class="price-old">80.00 RUB</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="item-catalog">
+								<div class="tags-wrap">
+									<div class="item-tag item-tag_hit">HIT</div>
+									<div class="item-tag">New</div>
+								</div>
+								<div class="btn-like"></div>
+								<a href="#" class="item-catalog__image">
+									<img src="img/catalog4.png" alt="alt">
+									<span class="item-catalog__info">
+										<span class="item-catalog__subitle">Цвета</span>
+										<span class="colors-list">
+											<span class="item-color">
+												<img src="img/color1.svg" alt="alt">
+											</span>
+											<span class="item-color">
+												<img src="img/color2.svg" alt="alt">
+											</span>
+											<span class="item-color">
+												<img src="img/color3.svg" alt="alt">
+											</span>
+										</span>
+									</span>
+								</a>
+								<div class="item-catalog__content">
+									<a href="#" class="item-catalog__title">Костюм спорт-шик <br>из костюмной тканика </a>
+									<div class="item-catalog__prices">
+										<div class="price-main">59.99 RUB</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+					<div class="swiper-scrollbar"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="recommendations">
+			<div class="container">
+				<h2 class="title-block">Вы смотрели</h2>
+				<div class="swiper swiper-catalog">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="item-catalog">
+								<div class="tags-wrap">
+									<div class="item-tag item-tag_hit">HIT</div>
+									<div class="item-tag">New</div>
+								</div>
+								<div class="btn-like"></div>
+								<a href="#" class="item-catalog__image">
+									<img src="img/catalog1.jpg" alt="alt">
+									<span class="item-catalog__info">
+										<span class="item-catalog__subitle">Цвета</span>
+										<span class="colors-list">
+											<span class="item-color">
+												<img src="img/color1.svg" alt="alt">
+											</span>
+											<span class="item-color">
+												<img src="img/color2.svg" alt="alt">
+											</span>
+											<span class="item-color">
+												<img src="img/color3.svg" alt="alt">
+											</span>
+										</span>
+									</span>
+								</a>
+								<div class="item-catalog__content">
+									<a href="#" class="item-catalog__title">Футболка белого цвета </a>
+									<div class="item-catalog__prices">
+										<div class="price-main">59.99 RUB</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="item-catalog">
+								<div class="tags-wrap">
+									<div class="item-tag item-tag_hit">HIT</div>
+									<div class="item-tag">New</div>
+								</div>
+								<div class="btn-like"></div>
+								<a href="#" class="item-catalog__image">
+									<img src="img/catalog2.jpg" alt="alt">
+									<span class="item-catalog__info">
+										<span class="item-catalog__subitle">Цвета</span>
+										<span class="colors-list">
+											<span class="item-color">
+												<img src="img/color1.svg" alt="alt">
+											</span>
+											<span class="item-color">
+												<img src="img/color2.svg" alt="alt">
+											</span>
+											<span class="item-color">
+												<img src="img/color3.svg" alt="alt">
+											</span>
+										</span>
+									</span>
+								</a>
+								<div class="item-catalog__content">
+									<a href="#" class="item-catalog__title">Футболка белого цвета </a>
+									<div class="item-catalog__prices">
+										<div class="price-main">59.99 RUB</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="item-catalog">
+								<div class="tags-wrap">
+									<div class="item-tag item-tag_hit">HIT</div>
+									<div class="item-tag">New</div>
+								</div>
+								<div class="btn-like"></div>
+								<a href="#" class="item-catalog__image">
+									<img src="img/catalog3.jpg" alt="alt">
+									<span class="item-catalog__info">
+										<span class="item-catalog__subitle">Цвета</span>
+										<span class="colors-list">
+											<span class="item-color">
+												<img src="img/color1.svg" alt="alt">
+											</span>
+											<span class="item-color">
+												<img src="img/color2.svg" alt="alt">
+											</span>
+											<span class="item-color">
+												<img src="img/color3.svg" alt="alt">
+											</span>
+										</span>
+									</span>
+								</a>
+								<div class="item-catalog__content">
+									<a href="#" class="item-catalog__title">Костюм спорт-шик <br>из костюмной тканика </a>
+									<div class="item-catalog__prices">
+										<div class="price-new">59.99 RUB</div>
+										<div class="price-old">80.00 RUB</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="item-catalog">
+								<div class="tags-wrap">
+									<div class="item-tag item-tag_hit">HIT</div>
+									<div class="item-tag">New</div>
+								</div>
+								<div class="btn-like"></div>
+								<a href="#" class="item-catalog__image">
+									<img src="img/catalog4.png" alt="alt">
+									<span class="item-catalog__info">
+										<span class="item-catalog__subitle">Цвета</span>
+										<span class="colors-list">
+											<span class="item-color">
+												<img src="img/color1.svg" alt="alt">
+											</span>
+											<span class="item-color">
+												<img src="img/color2.svg" alt="alt">
+											</span>
+											<span class="item-color">
+												<img src="img/color3.svg" alt="alt">
+											</span>
+										</span>
+									</span>
+								</a>
+								<div class="item-catalog__content">
+									<a href="#" class="item-catalog__title">Костюм спорт-шик <br>из костюмной тканика </a>
+									<div class="item-catalog__prices">
+										<div class="price-main">59.99 RUB</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-scrollbar"></div>
 				</div>
 			</div>
 		</section>
@@ -1546,7 +1043,7 @@
 	<script src="libs/mask/jquery.maskedinput.js"></script>
 	<script src="libs/swiper/swiper-bundle.min.js"></script>
 	<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-	<script src="js/common.js?ver=1.6"></script>
+	<script src="js/common.js?ver=1.5"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

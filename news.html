@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox-master/dist/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="libs/animate/animate.min.css" />
+	<link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.5" />
+	<link rel="stylesheet" href="css/media.css?ver=1.5" />
+</head>
+<body>
+
+	<div class="wrapper wrapper_page">
+
+		<header class="header default">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-4">
+						<ul class="menu">
+							<li><a href="#">Каталог</a></li>
+							<li><a href="#">Образы</a></li>
+							<li><a href="#">Новинки</a></li>
+							<li class="menu__sale"><a href="#modal-sale" class="fancybox">Sale</a></li>
+							<li><a href="#">Войти</a></li>
+						</ul>
+						<div class="sandwich"></div>
+					</div>
+					<div class="col-lg-2 col-4">
+						<div class="logo-wrap">
+							<a href="#" class="logo">
+								<img src="img/logo.svg" alt="alt">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-5 col-4">
+						<div class="header__buttons">
+							<a href="#" class="btn-header">
+								<img src="img/basket.svg" alt="alt">
+								<div class="btn-header__value">0</div>
+							</a>
+							<a href="#" class="btn-header">
+								<img src="img/heart.svg" alt="alt">
+							</a>
+							<div class="btn-header btn-header_search hidden-mob">
+								<img src="img/search.svg" alt="alt">
+								<div class="form-search">
+									<form>
+										<button class="btn-search">
+											<img src="img/search.svg" alt="alt">
+										</button>
+										<input type="text" placeholder="Поиск..." required="required">
+									</form>
+								</div>
+								<div class="content-search">
+									<div class="content-search__title">5 результатов по запросу: платье</div>
+									<div class="list-search">
+										<a href="#" class="item-search">
+											<span class="item-search__image">
+												<img src="img/item_search1.jpg" alt="alt">
+											</span>
+											<span class="item-search__content">
+												<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+												<span class="item-search__prices">
+													<span class="price-main">59.99 RUB</span>
+													<span class="price-old">80.00 RUB</span>
+												</span>
+											</span>
+										</a>
+										<a href="#" class="item-search">
+											<span class="item-search__image">
+												<img src="img/item_search1.jpg" alt="alt">
+											</span>
+											<span class="item-search__content">
+												<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+												<span class="item-search__prices">
+													<span class="price-main">59.99 RUB</span>
+													<span class="price-old">80.00 RUB</span>
+												</span>
+											</span>
+										</a>
+										<a href="#" class="item-search">
+											<span class="item-search__image">
+												<img src="img/item_search1.jpg" alt="alt">
+											</span>
+											<span class="item-search__content">
+												<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+												<span class="item-search__prices">
+													<span class="price-main">59.99 RUB</span>
+													<span class="price-old">80.00 RUB</span>
+												</span>
+											</span>
+										</a>
+										<a href="#" class="item-search">
+											<span class="item-search__image">
+												<img src="img/item_search1.jpg" alt="alt">
+											</span>
+											<span class="item-search__content">
+												<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+												<span class="item-search__prices">
+													<span class="price-main">59.99 RUB</span>
+													<span class="price-old">80.00 RUB</span>
+												</span>
+											</span>
+										</a>
+										<a href="#" class="item-search">
+											<span class="item-search__image">
+												<img src="img/item_search1.jpg" alt="alt">
+											</span>
+											<span class="item-search__content">
+												<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+												<span class="item-search__prices">
+													<span class="price-main">59.99 RUB</span>
+													<span class="price-old">80.00 RUB</span>
+												</span>
+											</span>
+										</a>
+									</div>
+									<div class="content-search__bottom">
+										<a href="#" class="btn-main">Все результаты</a>
+									</div>
+								</div>
+							</div>
+							<a href="#" class="btn-header hidden-mob">
+								<img src="img/user.svg" alt="alt">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<div class="menu-mobile__close"></div>
+				<div class="form-search-wrap">
+					<div class="form-search">
+						<form>
+							<button class="btn-search">
+								<img src="img/search.svg" alt="alt">
+							</button>
+							<input type="text" placeholder="Поиск..." required="required">
+						</form>
+					</div>
+					<div class="content-search">
+						<div class="content-search__title">5 результатов по запросу: платье</div>
+						<div class="list-search">
+							<a href="#" class="item-search">
+								<span class="item-search__image">
+									<img src="img/item_search1.jpg" alt="alt">
+								</span>
+								<span class="item-search__content">
+									<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+									<span class="item-search__prices">
+										<span class="price-main">59.99 RUB</span>
+										<span class="price-old">80.00 RUB</span>
+									</span>
+								</span>
+							</a>
+							<a href="#" class="item-search">
+								<span class="item-search__image">
+									<img src="img/item_search1.jpg" alt="alt">
+								</span>
+								<span class="item-search__content">
+									<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+									<span class="item-search__prices">
+										<span class="price-main">59.99 RUB</span>
+										<span class="price-old">80.00 RUB</span>
+									</span>
+								</span>
+							</a>
+							<a href="#" class="item-search">
+								<span class="item-search__image">
+									<img src="img/item_search1.jpg" alt="alt">
+								</span>
+								<span class="item-search__content">
+									<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+									<span class="item-search__prices">
+										<span class="price-main">59.99 RUB</span>
+										<span class="price-old">80.00 RUB</span>
+									</span>
+								</span>
+							</a>
+							<a href="#" class="item-search">
+								<span class="item-search__image">
+									<img src="img/item_search1.jpg" alt="alt">
+								</span>
+								<span class="item-search__content">
+									<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+									<span class="item-search__prices">
+										<span class="price-main">59.99 RUB</span>
+										<span class="price-old">80.00 RUB</span>
+									</span>
+								</span>
+							</a>
+							<a href="#" class="item-search">
+								<span class="item-search__image">
+									<img src="img/item_search1.jpg" alt="alt">
+								</span>
+								<span class="item-search__content">
+									<span class="item-search__title">Платье спорт-шик из костюмной тканика </span>
+									<span class="item-search__prices">
+										<span class="price-main">59.99 RUB</span>
+										<span class="price-old">80.00 RUB</span>
+									</span>
+								</span>
+							</a>
+						</div>
+						<div class="content-search__bottom">
+							<a href="#" class="btn-main">Все результаты</a>
+						</div>
+					</div>
+				</div>
+				<ul class="menu">
+					<li class="menu__haschild">
+						<a href="#">Каталог</a>
+						<ul>
+							<li><a href="#">Подпункт</a></li>
+							<li><a href="#">Подпункт</a></li>
+							<li><a href="#">Подпункт</a></li>
+							<li><a href="#">Подпункт</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Образы</a></li>
+					<li><a href="#">Новинки</a></li>
+					<li class="menu__sale"><a href="#modal-sale" class="fancybox">Sale</a></li>
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Оплата и доставка</a></li>
+					<li><a href="#">Возврат и обмен</a></li>
+					<li><a href="#">Блог</a></li>
+				</ul>
+				<div class="buttons-user">
+					<a href="#" class="btn-user">
+						<span class="btn-user__icon">
+							<img src="img/user2.svg" alt="alt">
+						</span>
+						<span>Войти</span>
+					</a>
+					<a href="#" class="btn-user">
+						<span class="btn-user__icon">
+							<div class="btn-user__value">0</div>
+							<img src="img/basket2.svg" alt="alt">
+						</span>
+						<span>Корзина</span>
+					</a>
+					<a href="#" class="btn-user">
+						<span class="btn-user__icon">
+							<img src="img/heart2.svg" alt="alt">
+						</span>
+						<span>Избранное</span>
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<section class="page-news">
+			<div class="container">
+				<ul class="breadcrumbs">
+					<li><a href="#">Главная</a></li>
+					<li>Блог</li>
+				</ul>
+				<div class="head-page">
+					<h1 class="title-block fadeIn wow" data-wow-iteration="1" data-wow-delay="0.3s">Блог</h1>
+					<div class="item-select fadeIn wow" data-wow-iteration="1" data-wow-delay="0.3s">
+						<select>
+							<option value="1">Сначала  новые</option>
+							<option value="1">Сначала  старые</option>
+						</select>
+					</div>
+				</div>
+				<div class="row row_news">
+					<div class="col-12">
+						<div class="news-main">
+							<div class="row">
+								<div class="col-lg-5">
+									<div class="news-main__content">
+										<a href="#" class="news-main__title">Советы имидж-консультанта и основателя бренда, которые помогут быть стильной не изменяя себе</a>
+										<div class="news-main__bottom">
+											<div class="news-main__date">15/03/24</div>
+											<a href="#" class="news-main__link"></a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-7">
+									<a href="#" class="news-main__image">
+										<img src="img/news_main1.jpg" alt="alt">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<a href="#" class="item-news">
+							<span class="item-news__image">
+								<img src="img/page_news1.jpg" alt="alt">
+							</span>
+							<span class="item-news__content">
+								<span class="item-news__title">Как носить худи и выглядеть стильно: <br>6 свежих фэшн-идей</span>
+								<span class="item-news__date">15/03/24</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<a href="#" class="item-news">
+							<span class="item-news__image">
+								<img src="img/page_news2.jpg" alt="alt">
+							</span>
+							<span class="item-news__content">
+								<span class="item-news__title">Как носить худи и выглядеть стильно: <br>6 свежих фэшн-идей</span>
+								<span class="item-news__date">15/03/24</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<a href="#" class="item-news">
+							<span class="item-news__image">
+								<img src="img/page_news3.jpg" alt="alt">
+							</span>
+							<span class="item-news__content">
+								<span class="item-news__title">Как носить худи и выглядеть стильно: <br>6 свежих фэшн-идей</span>
+								<span class="item-news__date">15/03/24</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<a href="#" class="item-news">
+							<span class="item-news__image">
+								<img src="img/page_news2.jpg" alt="alt">
+							</span>
+							<span class="item-news__content">
+								<span class="item-news__title">Как носить худи и выглядеть стильно: <br>6 свежих фэшн-идей</span>
+								<span class="item-news__date">15/03/24</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<a href="#" class="item-news">
+							<span class="item-news__image">
+								<img src="img/page_news1.jpg" alt="alt">
+							</span>
+							<span class="item-news__content">
+								<span class="item-news__title">Как носить худи и выглядеть стильно: <br>6 свежих фэшн-идей</span>
+								<span class="item-news__date">15/03/24</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<a href="#" class="item-news">
+							<span class="item-news__image">
+								<img src="img/page_news3.jpg" alt="alt">
+							</span>
+							<span class="item-news__content">
+								<span class="item-news__title">Как носить худи и выглядеть стильно: <br>6 свежих фэшн-идей</span>
+								<span class="item-news__date">15/03/24</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<a href="#" class="item-news">
+							<span class="item-news__image">
+								<img src="img/page_news2.jpg" alt="alt">
+							</span>
+							<span class="item-news__content">
+								<span class="item-news__title">Как носить худи и выглядеть стильно: <br>6 свежих фэшн-идей</span>
+								<span class="item-news__date">15/03/24</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<a href="#" class="item-news">
+							<span class="item-news__image">
+								<img src="img/page_news3.jpg" alt="alt">
+							</span>
+							<span class="item-news__content">
+								<span class="item-news__title">Как носить худи и выглядеть стильно: <br>6 свежих фэшн-идей</span>
+								<span class="item-news__date">15/03/24</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<a href="#" class="item-news">
+							<span class="item-news__image">
+								<img src="img/page_news1.jpg" alt="alt">
+							</span>
+							<span class="item-news__content">
+								<span class="item-news__title">Как носить худи и выглядеть стильно: <br>6 свежих фэшн-идей</span>
+								<span class="item-news__date">15/03/24</span>
+							</span>
+						</a>
+					</div>
+				</div>
+				<div class="pager">
+					<a class="prev page-numbers disabled" href="#"><i class="far fa-chevron-left"></i></a>
+					<span aria-current="page" class="page-numbers current" href="#">1</span> 
+					<a class="page-numbers" href="#">2</a>
+					<a class="page-numbers" href="#">3</a>
+					<a class="page-numbers" href="#">4</a>
+					<span class="page-numbers dots">…</span>
+					<a class="page-numbers" href="#">8</a>
+					<a class="next page-numbers" href="#"><i class="far fa-chevron-right"></i></a>
+				</div>
+			</div>
+		</section>
+		
+		<footer class="footer">
+			<div class="container">
+				<div class="row row_footer">
+					<div class="col-lg-8 col-8">
+						<div class="head-section">
+							<div class="head-section__content">
+								<div class="title-middle fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.7s">contacts</div>
+								<h2 class="title-section fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.3s">ОСТАВАЙТЕСЬ НА СВЯЗИ</h2>
+							</div>
+						</div>
+						<div class="subtitle-page">Присоединяйтесь к нам в социальных сетях</div>
+						<ul class="list-socials">
+							<li><a href="#" target="_blank"><img src="img/tg.svg" alt="alt"></a></li>
+							<li><a href="#" target="_blank"><img src="img/inst.svg" alt="alt"></a></li>
+							<li><a href="#" target="_blank"><img src="img/yt.svg" alt="alt"></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-4">
+						<div class="footer__logo zoomIn wow" data-wow-iteration="1" data-wow-delay="0.7s">
+							<img src="img/logo2.svg" alt="alt">
+						</div>
+					</div>
+				</div>
+				<div class="row row_footer">
+					<div class="col-lg-8">
+						<div class="footer__contacts">
+							<div class="line-contacts">
+								<a href="tel:+79267812680" class="line-contacts__value">+7(926)781-26-80</a>
+								<div class="line-contacts__title">Номер телефона</div>
+							</div>
+							<div class="line-contacts">
+								<a href="mailto:shop@mysecondskin.ru" class="line-contacts__value">shop@mysecondskin.ru</a>
+								<div class="line-contacts__title">E-mail</div>
+							</div>
+							<div class="line-contacts">
+								<ul class="list-socials">
+									<li><a href="#" target="_blank"><img src="img/ic_tg.svg" alt="alt"></a></li>
+									<li><a href="#" target="_blank"><img src="img/ic_wp.svg" alt="alt"></a></li>
+								</ul>
+								<div class="line-contacts__title">ОБРАТНАЯ СВЯЗЬ </div>
+							</div>
+						</div>
+						<div class="footer__wrap">
+							<ul class="footer__nav">
+								<li><a href="#">КАТАЛОГ</a></li>
+								<li><a href="#">ОБРАЗЫ</a></li>
+								<li><a href="#">О НАС</a></li>
+								<li><a href="#">БЛОГ</a></li>
+								<li><a href="#">КОНТАКТЫ</a></li>
+								<li><a href="#">ОПЛАТА И ДОСТАВКА</a></li>
+								<li><a href="#">Возврат и обмен</a></li>
+								<li><a href="#">ИЗБРАННОЕ</a></li>
+								<li><a href="#">МОЙ КАБИНЕТ</a></li>
+							</ul>
+							<div class="footer__payments">
+								<p>СПОСОБЫ ОПЛАТЫ</p>
+								<ul class="list-payments">
+									<li><img src="img/pay1.png" alt="alt"></li>
+									<li><img src="img/pay2.png" alt="alt"></li>
+									<li><img src="img/pay3.png" alt="alt"></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col_form">
+						<div class="footer__form">
+							<div class="title-small"><strong>Подпишитесь на рассылку,</strong> чтобы быть в курсе последних новинок и акций </div>
+							<form>
+								<div class="item-form">
+									<input type="email" placeholder="Эл. почта" required="required">
+								</div>
+								<div class="form-bottom">
+									<input type="submit" class="btn-main" value="Отправить">
+									<div class="agree-form">Нажимая на кнопку вы соглащаетесь на <a href="#">обработку персональных данных</a></div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="footer-bottom__wrap">
+						<a href="#">Политика конфиденциальности</a>
+						<p>г. Москва © Copyright  2024 г.</p>
+						<div class="create">Сайт разработан в <a href="#"><img src="img/arcsis.svg" alt="alt"></a></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<div id="modal-subscribe-product" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-middle">Подписаться на товар</div>
+			<p>Сообщим вам о поступлении</p>
+			<form>
+				<div class="item-form">
+					<input type="email" placeholder="Эл. почта" required="required">
+				</div>
+				<input type="submit" class="btn-main" value="Отправить">
+			</form>
+		</div>
+	</div>
+
+	<div id="modal-sizes" class="modal-block">
+		<div class="modal-wrap modal-wrap_sizes">
+			<div class="title-middle title-middle_min">размерная сетка</div>
+			<div class="table-main hidden-mob">
+				<table>
+					<thead>
+						<tr>
+							<th>Размеры</th>
+							<th>XS (42)</th>
+							<th>S (44)</th>
+							<th>M (46)</th>
+							<th>L (48)</th>
+							<th>XL (50)</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Длина изделия по боковому шву</td>
+							<td>113</td>
+							<td>113</td>
+							<td>113</td>
+							<td>113</td>
+							<td>113</td>
+						</tr>
+						<tr>
+							<td>Ширина по бёдрам, см</td>
+							<td>50</td>
+							<td>52</td>
+							<td>54</td>
+							<td>56</td>
+							<td>58</td>
+						</tr>
+						<tr>
+							<td>Объем пояса, см</td>
+							<td>68</td>
+							<td>72</td>
+							<td>76</td>
+							<td>82</td>
+							<td>88</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="table-main show-mob">
+				<table>
+					<thead>
+						<tr>
+							<th>Размеры</th>
+							<th>Длина изделия по боковому шву</th>
+							<th>Ширина по бёдрам, см</th>
+							<th>Объем пояса, 
+								см</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>XS (42)</td>
+							<td>113</td>
+							<td>50</td>
+							<td>68</td>
+						</tr>
+						<tr>
+							<td>S (44)</td>
+							<td>113</td>
+							<td>52</td>
+							<td>72</td>
+						</tr>
+						<tr>
+							<td>M (46)</td>
+							<td>113</td>
+							<td>54</td>
+							<td>76</td>
+						</tr>
+						<tr>
+							<td>L (48)</td>
+							<td>113</td>
+							<td>56</td>
+							<td>82</td>
+						</tr>
+						<tr>
+							<td>XL (50)</td>
+							<td>113</td>
+							<td>58</td>
+							<td>88</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-feedback" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-middle">Обратная связь</div>	
+			<form>
+				<div class="item-form">
+					<input type="text" placeholder="Ваше имя" required="required">
+				</div>
+				<div class="item-form">
+					<input type="email" placeholder="Эл. почта" required="required">
+				</div>
+				<div class="item-form">
+					<input type="text" placeholder="Номер телефона" class="input-phone" required="required">
+				</div>
+				<div class="item-form">
+					<textarea placeholder="комментарий" required="required"></textarea>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" required="required" checked="checked" />
+						<span>Нажимая на кнопку вы соглашаетесь на <a href="#">обработку персональных данных</a></span>
+					</label>
+				</div>
+				<input type="submit" class="btn-main" value="Отправить">
+			</form>
+		</div>
+	</div>
+
+	<div id="modal-thanks" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-middle">Спасибо за заявку!</div>	
+			<p>Ваша заявка находится в обработке</p>
+			<a href="/" class="btn-main">Вернуться назад</a>
+		</div>
+	</div>
+
+	<div id="modal-sale" class="modal-block">
+		<div class="modal-sale">
+			<div class="modal-sale__image">
+				<img src="img/modal_sale.jpg" alt="alt">
+			</div>
+			<div class="modal-sale__content">
+				<div class="title-middle">Акция 2+1</div>	
+				<p>Купи две вещи и получи в подарок одну вещь из старой коллекции</p>
+				<div class="modal-sale__bottom">
+					<a href="#" class="btn-main">подробнее</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox-master/dist/jquery.fancybox.min.js"></script>
+	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+	<script src="libs/animate/wow.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/mask/jquery.maskedinput.js"></script>
+	<script src="libs/swiper/swiper-bundle.min.js"></script>
+	<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+	<script src="js/common.js?ver=1.5"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
