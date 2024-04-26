@@ -51,6 +51,26 @@ $(document).mouseup(function (e) {
 	});
 
 
+	//modal subscribe product
+	$(".colors-card__item.disabled, .sizes-card__item.disabled").click(function() {
+		$.fancybox.open({
+			src  : '#modal-subscribe-product',
+			type: 'inline',
+			touch: false
+		});
+	});
+
+	//modal thanks
+	$("#modal-feedback .btn-main").click(function() {
+		$.fancybox.close();
+		$.fancybox.open({
+			src  : '#modal-thanks',
+			type: 'inline',
+			touch: false
+		});
+	});
+
+
 	  $('.form-search input').keyup(function() {
 		var input = $(this);
 
@@ -95,14 +115,14 @@ $(document).mouseup(function (e) {
 		$(".menu-mobile").slideUp(200);
 	});
 
-	$(".colors-card__item").click(function() {
+	$(".colors-card__item:not(.disabled)").click(function() {
 		var titleColor = $(this).attr("data-title");
 		$(this).addClass("selected");
 		$(this).siblings(".colors-card__item").removeClass("selected");
 		$(".colors-card__title").html(titleColor);
 	});
 
-	$(".sizes-card__item").click(function() {
+	$(".sizes-card__item:not(.disabled)").click(function() {
 		$(this).addClass("selected");
 		$(this).siblings(".sizes-card__item").removeClass("selected");
 	});
@@ -111,6 +131,14 @@ $(document).mouseup(function (e) {
 		$(this).toggleClass("active");
 	});
 
+	$('.tabs-card li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane-card").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
+	}); 
 
 
 	$(document).mouseup(function (e) {
