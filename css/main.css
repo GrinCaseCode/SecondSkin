@@ -2275,6 +2275,7 @@ form {
 	background-repeat: no-repeat;
 	background-image: url(../img/arrow.svg);
 	background-repeat: no-repeat;
+	background-size: contain;
 	transition: all 0.5s;
 }
 .unit-look__content:hover::after {
