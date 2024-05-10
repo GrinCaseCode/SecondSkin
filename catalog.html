@@ -18,8 +18,8 @@
 	<link rel="stylesheet" href="libs/animate/animate.min.css" />
 	<link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="css/fonts.css?ver=1.2" />
-	<link rel="stylesheet" href="css/main.css?ver=1.6" />
-	<link rel="stylesheet" href="css/media.css?ver=1.6" />
+	<link rel="stylesheet" href="css/main.css?ver=1.7" />
+	<link rel="stylesheet" href="css/media.css?ver=1.7" />
 </head>
 <body>
 
@@ -54,7 +54,7 @@
 							<a href="#" class="btn-header">
 								<img src="img/heart.svg" alt="alt">
 							</a>
-							<div class="btn-header btn-header_search hidden-mob">
+							<div class="btn-header btn-header_search">
 								<img src="img/search.svg" alt="alt">
 								<div class="form-search">
 									<form>
@@ -960,18 +960,20 @@
 								</div>
 							</div>
 						</div>
-						<div class="button-more">
-							<a href="#" class="btn-main">Смотреть еще</a>
-						</div>
-						<div class="pager">
-							<a class="prev page-numbers disabled" href="#"><i class="far fa-chevron-left"></i></a>
-							<span aria-current="page" class="page-numbers current" href="#">1</span> 
-							<a class="page-numbers" href="#">2</a>
-							<a class="page-numbers" href="#">3</a>
-							<a class="page-numbers" href="#">4</a>
-							<span class="page-numbers dots">…</span>
-							<a class="page-numbers" href="#">8</a>
-							<a class="next page-numbers" href="#"><i class="far fa-chevron-right"></i></a>
+						<div class="catalog-nav">
+							<div class="button-more">
+								<a href="#" class="btn-main">Смотреть еще</a>
+							</div>
+							<div class="pager">
+								<a class="prev page-numbers disabled" href="#"><i class="far fa-chevron-left"></i></a>
+								<span aria-current="page" class="page-numbers current" href="#">1</span> 
+								<a class="page-numbers" href="#">2</a>
+								<a class="page-numbers" href="#">3</a>
+								<a class="page-numbers" href="#">4</a>
+								<span class="page-numbers dots">…</span>
+								<a class="page-numbers" href="#">8</a>
+								<a class="next page-numbers" href="#"><i class="far fa-chevron-right"></i></a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -1290,8 +1292,8 @@
 					<div class="col-lg-8 col-8">
 						<div class="head-section">
 							<div class="head-section__content">
-								<div class="title-middle fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.7s">contacts</div>
-								<h2 class="title-section fadeInUp wow" data-wow-iteration="1" data-wow-delay="0.3s">ОСТАВАЙТЕСЬ НА СВЯЗИ</h2>
+								<div class="title-middle fadeInUp wow" data-wow-iteration="1" data-wow-duration="2s" data-wow-delay="0.7s">contacts</div>
+								<h2 class="title-section fadeInUp wow" data-wow-iteration="1" data-wow-duration="2s" data-wow-delay="0.3s">ОСТАВАЙТЕСЬ НА СВЯЗИ</h2>
 							</div>
 						</div>
 						<div class="subtitle-page">Присоединяйтесь к нам в социальных сетях</div>
@@ -1302,7 +1304,7 @@
 						</ul>
 					</div>
 					<div class="col-lg-4 col-4">
-						<div class="footer__logo zoomIn wow" data-wow-iteration="1" data-wow-delay="0.7s">
+						<div class="footer__logo zoomIn wow" data-wow-iteration="1" data-wow-duration="3s" data-wow-delay="0.7s">
 							<img src="img/logo2.svg" alt="alt">
 						</div>
 					</div>
@@ -1320,8 +1322,8 @@
 							</div>
 							<div class="line-contacts">
 								<ul class="list-socials">
-									<li><a href="#" target="_blank"><img src="img/ic_tg.svg" alt="alt"></a></li>
-									<li><a href="#" target="_blank"><img src="img/ic_wp.svg" alt="alt"></a></li>
+									<li><a href="#" target="_blank"><img src="img/tg.svg" alt="alt"></a></li>
+									<li><a href="#" target="_blank"><img src="img/wp.svg" alt="alt"></a></li>
 								</ul>
 								<div class="line-contacts__title">ОБРАТНАЯ СВЯЗЬ </div>
 							</div>
@@ -1384,6 +1386,12 @@
 			<form>
 				<div class="item-form">
 					<input type="email" placeholder="Эл. почта" required="required">
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" required="required" checked="checked" />
+						<span>Нажимая на кнопку вы соглашаетесь на <a href="#">обработку персональных данных</a></span>
+					</label>
 				</div>
 				<input type="submit" class="btn-main" value="Отправить">
 			</form>
@@ -1546,7 +1554,7 @@
 	<script src="libs/mask/jquery.maskedinput.js"></script>
 	<script src="libs/swiper/swiper-bundle.min.js"></script>
 	<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-	<script src="js/common.js?ver=1.6"></script>
+	<script src="js/common.js?ver=1.7"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
