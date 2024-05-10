@@ -56,6 +56,10 @@ $(document).mouseup(function (e) {
 	$(".btn-header_search").click(function() {
 		$(this).addClass("active");
 		$(".header").addClass("header_search");
+		
+		setTimeout(function () {
+			$(".btn-header_search").find("input").focus();
+		  }, 300); 
 	});
 
 
