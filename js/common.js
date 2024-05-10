@@ -1,6 +1,14 @@
 $(document).ready(function() {
 
 
+	$('.video-main').click(function() {
+		var videoURL = $(this).find("iframe").prop('src');
+		videoURL += "&autoplay=1";
+		$(this).find("iframe").prop('src',videoURL);
+		$(this).addClass("active");
+	  });
+
+
 //прилипающие меню
 var $menu = $(".header");
 $(window).scroll(function(){
@@ -47,7 +55,7 @@ $(document).mouseup(function (e) {
 
 	$(".btn-header_search").click(function() {
 		$(this).addClass("active");
-		
+		$(".header").addClass("header_search");
 	});
 
 
@@ -146,6 +154,7 @@ $(document).mouseup(function (e) {
 		if (container.has(e.target).length === 0){
 			$(".btn-header_search").removeClass("active");
 			$(".content-search").fadeOut(200)
+			$(".header").removeClass("header_search");
 		}
 	  });
 
